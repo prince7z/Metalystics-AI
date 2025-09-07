@@ -1,8 +1,9 @@
-export default function Navbar( props: any) {
+import { useRecoilValue } from "recoil";
+import { meta_data } from '../Components/atoms/project'
+export default function Navbar() {
 
   // 0 not valid, 1 valid , 2 filled
-  const metadata = props.metadata;
-
+  const metadata = useRecoilValue(meta_data("1234"));
   return (
     <nav className="bg-blue-500 text-white p-4">
       <ul className="flex space-x-4">

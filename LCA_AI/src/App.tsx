@@ -1,6 +1,7 @@
 import {Routes, Route } from 'react-router-dom'
 import './App.css'
 import Pinit from './pages/Pinit'
+import Navbar from './Components/Navbar'
 
 function App() {
   
@@ -8,10 +9,9 @@ function App() {
   return (
     <div className="bg-blue-500 text-white min-h-screen p-4">
         <Routes>
+          <Route path="*" element={<Navbar />} />
           <Route path="/" element={<>hello</>}/>
-          <Route path ="/register" element={<>register</>} />
-          <Route path ="/projects" element={<>projects</>} />
-          <Route path ="/project/" element={<>project details</>} />
+          <Route path ="/register" element={<>register</>} />          
           <Route path ="/project/initialise" element={<Pinit />} />
           <Route path = "/project/inventory/:id" element={<>project inventory</>} />
           <Route path = "/project/impact/:id" element={<>project analytics</>} />
