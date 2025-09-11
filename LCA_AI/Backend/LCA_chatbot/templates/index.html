@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LCA Chatbot</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; }
+    #chatbox { width: 400px; margin: 50px auto; background: white; padding: 15px; border-radius: 10px; box-shadow: 0 0 10px gray; }
+    #messages { height: 300px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; }
+    .msg { margin: 5px 0; }
+    .user { font-weight: bold; color: blue; }
+    .bot { font-weight: bold; color: green; }
+    input { width: 75%; padding: 5px; }
+    button { padding: 6px 10px; }
+  </style>
+</head>
+<body>
+  <div id="chatbox">
+    <h3>LCA Chatbot</h3>
+    <div id="messages"></div>
+    <input type="text" id="userInput" placeholder="Ask something...">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+
+  <script>
+    async function sendMessage() {
+      const input = document.getElementById("userInput");
+      const msg = input.value.trim();
+      if (!msg) return;
+
+      // Show user message
+      const messagesDiv = document.getElementById("messages");
+      messagesDiv.innerHTML += `<div class="msg user">You: ${msg}</div>`;
+
+      // Send to backend
+      const res = await fetch("/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: msg })
+      });
+
+      const data = await res.json();
+      const reply = data.reply || data.error;
+
+      // Show bot reply
+      messagesDiv.innerHTML += `<div class="msg bot">Bot: ${reply}</div>`;
+      messagesDiv.scrollTop = messagesDiv.scrollHeight;
+
+      input.value = "";
+    }
+  </script>
+</body>
+</html>

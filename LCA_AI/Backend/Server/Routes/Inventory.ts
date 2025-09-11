@@ -125,7 +125,7 @@ router.post('/extraction/:projectId', async (req, res) => {
             });
             await newExtraction.save();
         }
-
+        console.log("Extraction data processed:");
         res.status(201).send({ message: 'Extraction data added successfully', extractiondata });
     } catch (error) {
         console.error('Error adding extraction data:', error);

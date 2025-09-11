@@ -1,0 +1,42 @@
+Project Name: AI-Driven Life Cycle Assessment (LCA) Tool for Advancing Circularity and Sustainability in Metallurgy and Mining.
+
+Project Goal: To empower the metals sector to make practical, data-driven choices that foster environmental sustainability and advance circular, resource-efficient systems. The tool is designed for metallurgists, engineers, and decision-makers.
+
+---
+
+### ## Core Concepts
+
+**What is Life Cycle Assessment (LCA)?:**
+Life Cycle Assessment, or LCA, is a strategic tool for measuring the environmental impact of a product throughout its entire life. This includes every stage from raw material extraction, processing, and manufacturing to the product's use and its end-of-life (disposal, reuse, or recycling). It helps identify key areas for environmental improvement.
+
+**What is Circularity?:**
+Circularity refers to the principles of a circular economy. Instead of a linear "take-make-dispose" model, a circular model aims to keep materials in use for as long as possible. This is achieved through strategies like reuse, recycling, and creating closed-loop systems, which minimizes waste and reduces the need for new raw materials.
+
+**What metals does this tool focus on?:**
+The tool is designed for vital metals such as **aluminium**, **copper**, and other **critical minerals** that are essential to sectors like energy and infrastructure.
+
+---
+
+### ## Tool Functionality
+
+**How does the tool work?:**
+The platform is an intuitive, AI-powered software designed for automated LCAs with a special focus on circularity.
+
+**What does the user need to input?:**
+Users can input or select process and production details for a metal. This includes specifying whether it's a raw or recycled production route, the energy used, transportation details, and the planned end-of-life options (e.g., landfill, recycling).
+
+**What is the role of AI/ML in the tool?:**
+The Artificial Intelligence (AI) and Machine Learning (ML) models are used to enhance the analysis. They can estimate missing parameters if the user has incomplete data and can predict both environmental impacts and key circularity indicators.
+
+**What are the key indicators the tool predicts?:**
+The tool predicts several important indicators, including:
+* Recycled content percentage
+* Resource efficiency
+* Extended product life potential
+* Potential for reuse or remanufacturing
+
+**What kind of outputs does the tool generate?:**
+The tool provides several valuable outputs:
+1.  **Visualizations:** It visualizes circular flow opportunities alongside environmental impacts across the entire value chain.
+2.  **Comparisons:** It enables an easy side-by-side comparison of conventional (linear) and circular processing pathways.
+3.  **Reports:** It generates actionable reports and recommendations for reducing environmental impacts and enhancing circularity, even for users with limited data or expertise.

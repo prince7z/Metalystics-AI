@@ -1,15 +1,121 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import axios from "axios";
 
 function InputPage() {
-  //     "projectName": "Primary Aluminum Ingot Production LCA",
-  //   "metalType": "Aluminium",
-  //   "goal": "To assess the environmental impact of producing 1 tonne of primary aluminum ingot.",
-  //   "systemBoundary": "Cradle-to-Gate",
-
-  const [systemBoundary, setSystemBoundary] = useState("");
+  // Project initialization state variables
+  const [projectName, setProjectName] = useState("");
+  const [goal, setGoal] = useState("");
   const [metalType, setMetalType] = useState("");
+  const [systemBoundary, setSystemBoundary] = useState("");
+  const [functionalUnit, setFunctionalUnit] = useState("");
+  
+  // Loading and error states
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
+  const [projectResponse, setProjectResponse] = useState<any>(null);
+  const [showSuccessModal, setShowSuccessModal] = useState(false);
+
+  // Extraction state variables
+  const [extractionMetal, setExtractionMetal] = useState("");
+  const [materialGrade, setMaterialGrade] = useState("");
+  const [sourceType, setSourceType] = useState("");
+  const [region, setRegion] = useState("");
+  const [method, setMethod] = useState("");
+  const [energySource, setEnergySource] = useState("");
+  const [totalEnergyConsumption, setTotalEnergyConsumption] = useState("");
+  const [waterUsage, setWaterUsage] = useState("");
+  const [wasteGenerated, setWasteGenerated] = useState("");
+  const [costOfExtraction, setCostOfExtraction] = useState("");
+  const [extractionResponse, setExtractionResponse] = useState<any>(null);
+  const [showExtractionModal, setShowExtractionModal] = useState(false);
 
   const [stageCounter, setStageCounter] = useState(0);
+
+  // Function to initialize project
+  const initializeProject = async () => {
+    if (!projectName || !metalType || !systemBoundary) {
+      setError("Please fill in all required fields: Project Name, Metal Type, and System Boundary");
+      return;
+    }
+
+    setIsLoading(true);
+    setError("");
+    setSuccess("");
+
+    try {
+      const response = await axios.post("http://localhost:5000/api/project/init", {
+        projectName,
+        metalType,
+        goal,
+        systemBoundary,
+        functionalUnit
+      });
+
+      console.log("Project initialized successfully:", response.data);
+      setProjectResponse(response.data);
+      setShowSuccessModal(true);
+      
+    } catch (error: any) {
+      console.error("Error initializing project:", error);
+      setError(error.response?.data?.message || "Failed to initialize project");
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleConfirmAndProceed = () => {
+    setShowSuccessModal(false);
+    setProjectResponse(null);
+    incrementCounter();
+  };
+
+  // Function to submit extraction data
+  const submitExtractionData = async () => {
+    if (!extractionMetal || !sourceType || !region) {
+      setError("Please fill in all required fields: Metal, Source Type, and Region");
+      return;
+    }
+
+    // Get project ID from projectResponse or use a fallback
+    let projectId = projectResponse?.id;
+    if (!projectId) {
+      projectId = "68c30b5357406494ce63b8f9"; // Fallback ID for testing
+    }
+
+    setIsLoading(true);
+    setError("");
+
+    try {
+      const extractionPayload = {
+        metal: extractionMetal,
+        materialGrade,
+        sourceType,
+        region,
+        method,
+        energySource: energySource ? [{ type: energySource, percent: 100 }] : [],
+        totalEnergyConsumption_kWh_perTon: totalEnergyConsumption ? Number(totalEnergyConsumption) : undefined,
+        waterUsage_L_perTon: waterUsage ? Number(waterUsage) : undefined,
+        wasteGenerated_kg_perTon: wasteGenerated ? Number(wasteGenerated) : undefined,
+        costOfExtraction_USD_perTon: costOfExtraction ? Number(costOfExtraction) : undefined,
+      };
+
+      const response = await axios.post(
+        `http://localhost:5000/api/inventory/extraction/${projectId}`,
+        extractionPayload
+      );
+
+      console.log("Extraction data submitted successfully:", response.data);
+      setExtractionResponse(response.data);
+      setShowExtractionModal(true);
+      
+    } catch (error: any) {
+      console.error("Error submitting extraction data:", error);
+      setError(error.response?.data?.message || "Failed to submit extraction data");
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   const incrementCounter = () => {
     setStageCounter((prevCount) => prevCount + 1);
@@ -24,16 +130,32 @@ function InputPage() {
             {stageCounter === 0 && (
               <>
                 <span className="text-2xl font-semibold">
-                  {" "}
-                  Project Initialisation{" "}
+                  Project Initialisation
                 </span>
+                
+                {/* Error and Success Messages */}
+                {error && (
+                  <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded">
+                    {error}
+                  </div>
+                )}
+                {success && (
+                  <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded">
+                    {success}
+                  </div>
+                )}
+                
                 <input
                   type="text"
                   placeholder="Project Name"
+                  value={projectName}
+                  onChange={(e) => setProjectName(e.target.value)}
                   className="border border-gray-400 rounded-md px-4 py-2 w-[400px] focus:outline-none focus:ring-2 focus:ring-blue-100 bg-white"
                 />
                 <textarea
                   placeholder="Goal of the LCA Study"
+                  value={goal}
+                  onChange={(e) => setGoal(e.target.value)}
                   className="border border-gray-400 rounded-md px-4 py-2 w-[400px] h-[100px] focus:outline-none focus:ring-2 focus:ring-blue-100 bg-white"
                 />
                 <select
@@ -60,76 +182,141 @@ function InputPage() {
                   <option value="" disabled>
                     Select System Boundary
                   </option>
-                  <option value="Cradle to Gate">Cradle to Gate</option>
-                  <option value="Cradle to Grave">Cradle to Grave</option>
-                  <option value="Well to Wheel">Cradle to Cradle</option>
-                  <option value="Gate to Gate">Gate to Gate</option>
+                  <option value="Cradle-to-Gate">Cradle to Gate</option>
+                  <option value="Cradle-to-Grave">Cradle to Grave</option>
+                  <option value="Cradle-to-Cradle">Cradle to Cradle</option>
+                  <option value="Gate-to-Gate">Gate to Gate</option>
                 </select>
+                <input
+                  type="text"
+                  placeholder="Functional Unit (e.g., 1 tonne)"
+                  value={functionalUnit}
+                  onChange={(e) => setFunctionalUnit(e.target.value)}
+                  className="border border-gray-400 rounded-md px-4 py-2 w-[400px] focus:outline-none focus:ring-2 focus:ring-blue-100 bg-white"
+                />
+                
+                {/* Initialize Project Button */}
+                <button
+                  onClick={initializeProject}
+                  disabled={isLoading}
+                  className="bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 text-white px-6 py-2 rounded-md font-medium transition-colors w-[400px]"
+                >
+                  {isLoading ? "Initializing..." : "Initialize Project"}
+                </button>
               </>
             )}
             {stageCounter === 1 && (
               <>
-                <span className="text-2xl font-semibold"> Extraction </span>
-                <input
-                  type="text"
-                  placeholder="Metal"
-                  className="border border-gray-400 rounded-md px-4 py-2 w-[400px] focus:outline-none focus:ring-2 focus:ring-blue-100 bg-white"
-                />
+                <span className="text-2xl font-semibold">Extraction</span>
+                
+                {/* Error Messages */}
+                {error && (
+                  <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded">
+                    {error}
+                  </div>
+                )}
+                
+                <div className="relative">
+                  <input
+                    type="text"
+                    placeholder="Metal"
+                    value={extractionMetal}
+                    onChange={(e) => setExtractionMetal(e.target.value)}
+                    className="border border-gray-400 rounded-md px-4 py-2 w-[400px] focus:outline-none focus:ring-2 focus:ring-blue-100 bg-white"
+                  />
+                  <span className="text-red-500 text-lg absolute -top-1 -right-2">*</span>
+                </div>
+                
                 <input
                   type="text"
                   placeholder="Material Grade"
+                  value={materialGrade}
+                  onChange={(e) => setMaterialGrade(e.target.value)}
                   className="border border-gray-400 rounded-md px-4 py-2 w-[400px] focus:outline-none focus:ring-2 focus:ring-blue-100 bg-white"
                 />
-                <input
-                  type="text"
-                  placeholder="Source Type"
-                  className="border border-gray-400 rounded-md px-4 py-2 w-[400px] focus:outline-none focus:ring-2 focus:ring-blue-100 bg-white"
-                />
-                <input
-                  type="text"
-                  placeholder="Region"
-                  className="border border-gray-400 rounded-md px-4 py-2 w-[400px] focus:outline-none focus:ring-2 focus:ring-blue-100 bg-white"
-                />
+                
+                <div className="relative">
+                  <input
+                    type="text"
+                    placeholder="Source Type"
+                    value={sourceType}
+                    onChange={(e) => setSourceType(e.target.value)}
+                    className="border border-gray-400 rounded-md px-4 py-2 w-[400px] focus:outline-none focus:ring-2 focus:ring-blue-100 bg-white"
+                  />
+                  <span className="text-red-500 text-lg absolute -top-1 -right-2">*</span>
+                </div>
+                
+                <div className="relative">
+                  <input
+                    type="text"
+                    placeholder="Region"
+                    value={region}
+                    onChange={(e) => setRegion(e.target.value)}
+                    className="border border-gray-400 rounded-md px-4 py-2 w-[400px] focus:outline-none focus:ring-2 focus:ring-blue-100 bg-white"
+                  />
+                  <span className="text-red-500 text-lg absolute -top-1 -right-2">*</span>
+                </div>
+                
                 <input
                   type="text"
                   placeholder="Method"
+                  value={method}
+                  onChange={(e) => setMethod(e.target.value)}
                   className="border border-gray-400 rounded-md px-4 py-2 w-[400px] focus:outline-none focus:ring-2 focus:ring-blue-100 bg-white"
                 />
-                {/* <textarea placeholder="Energy Source (Type, Percentage)" className="border border-gray-400 rounded-md px-4 py-2 w-[400px] h-[100px] focus:outline-none focus:ring-2 focus:ring-blue-100 bg-white" /> */}
+                
                 <input
                   type="text"
-                  placeholder="Total Energy Consumption"
+                  placeholder="Energy Source (e.g., Electricity, Coal)"
+                  value={energySource}
+                  onChange={(e) => setEnergySource(e.target.value)}
                   className="border border-gray-400 rounded-md px-4 py-2 w-[400px] focus:outline-none focus:ring-2 focus:ring-blue-100 bg-white"
                 />
+                
                 <input
-                  type="text"
-                  placeholder="Water Usage per Ton"
+                  type="number"
+                  placeholder="Total Energy Consumption (kWh/ton)"
+                  value={totalEnergyConsumption}
+                  onChange={(e) => setTotalEnergyConsumption(e.target.value)}
                   className="border border-gray-400 rounded-md px-4 py-2 w-[400px] focus:outline-none focus:ring-2 focus:ring-blue-100 bg-white"
                 />
+                
                 <input
-                  type="text"
-                  placeholder="Waste Generated per Ton"
+                  type="number"
+                  placeholder="Water Usage (L/ton)"
+                  value={waterUsage}
+                  onChange={(e) => setWaterUsage(e.target.value)}
                   className="border border-gray-400 rounded-md px-4 py-2 w-[400px] focus:outline-none focus:ring-2 focus:ring-blue-100 bg-white"
                 />
+                
                 <input
-                  type="text"
-                  placeholder="Cost of Extraction per Ton (USD)"
+                  type="number"
+                  placeholder="Waste Generated (kg/ton)"
+                  value={wasteGenerated}
+                  onChange={(e) => setWasteGenerated(e.target.value)}
                   className="border border-gray-400 rounded-md px-4 py-2 w-[400px] focus:outline-none focus:ring-2 focus:ring-blue-100 bg-white"
                 />
-
-                {/* metal
-material grade
-source type
-region
-method
-energy source [{
-	type:
-	percentage
-}]
-total energy consumption
-water usage per ton
-waste generated per ton
-cost of extraction per ton (USD) */}
+                
+                <input
+                  type="number"
+                  placeholder="Cost of Extraction (USD/ton)"
+                  value={costOfExtraction}
+                  onChange={(e) => setCostOfExtraction(e.target.value)}
+                  className="border border-gray-400 rounded-md px-4 py-2 w-[400px] focus:outline-none focus:ring-2 focus:ring-blue-100 bg-white"
+                />
+                
+                {/* Submit Extraction Data Button */}
+                <button
+                  onClick={submitExtractionData}
+                  disabled={isLoading}
+                  className="bg-green-600 hover:bg-green-700 disabled:bg-gray-400 text-white px-6 py-2 rounded-md font-medium transition-colors w-[400px]"
+                >
+                  {isLoading ? "Submitting..." : "Submit Extraction Data"}
+                </button>
+                
+                <div className="text-xs text-gray-500 mt-2">
+                  <span className="text-red-500">*</span> Required fields
+                </div>
               </>
             )}
             {stageCounter === 2 && (
@@ -687,6 +874,174 @@ recycle */}
           (Note: This is a mockup input form. Functionality to be implemented.){" "}
         </div>
       </div>
+
+      {/* Success Modal */}
+      {showSuccessModal && projectResponse && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-lg p-6 max-w-2xl w-full mx-4 max-h-[80vh] overflow-y-auto">
+            <div className="text-center mb-4">
+              <div className="text-green-500 text-6xl mb-2">✅</div>
+              <h2 className="text-2xl font-bold text-gray-900 mb-2">Project Initialized Successfully!</h2>
+              <p className="text-gray-600">Your LCA project has been created with complete structure.</p>
+            </div>
+
+            <div className="bg-gray-50 rounded-lg p-4 mb-6">
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Project Details</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                <div>
+                  <span className="font-medium text-gray-700">Project ID:</span>
+                  <p className="text-gray-900 font-mono">{projectResponse.id}</p>
+                </div>
+                <div>
+                  <span className="font-medium text-gray-700">Status:</span>
+                  <p className="text-gray-900">{projectResponse.projectData?.status}</p>
+                </div>
+                <div>
+                  <span className="font-medium text-gray-700">Project Name:</span>
+                  <p className="text-gray-900">{projectResponse.projectData?.projectName}</p>
+                </div>
+                <div>
+                  <span className="font-medium text-gray-700">Metal Type:</span>
+                  <p className="text-gray-900">{projectResponse.projectData?.metalType}</p>
+                </div>
+                <div>
+                  <span className="font-medium text-gray-700">System Boundary:</span>
+                  <p className="text-gray-900">{projectResponse.projectData?.systemBoundary}</p>
+                </div>
+                <div>
+                  <span className="font-medium text-gray-700">Functional Unit:</span>
+                  <p className="text-gray-900">{projectResponse.projectData?.functionalUnit}</p>
+                </div>
+              </div>
+              
+              <div className="mt-4">
+                <span className="font-medium text-gray-700">Goal:</span>
+                <p className="text-gray-900 text-sm mt-1">{projectResponse.projectData?.goal}</p>
+              </div>
+            </div>
+
+            <div className="bg-blue-50 rounded-lg p-4 mb-6">
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Inventory Structure Created</h3>
+              <div className="grid grid-cols-2 gap-2 text-sm">
+                {Object.entries(projectResponse.inventoryStructure || {}).map(([process, id]) => (
+                  <div key={process} className="flex justify-between items-center py-1">
+                    <span className="font-medium text-gray-700 capitalize">
+                      {process.replace(/([A-Z])/g, ' $1').trim()}:
+                    </span>
+                    <span className="text-xs font-mono text-gray-600">{String(id)}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="text-center">
+              <button
+                onClick={handleConfirmAndProceed}
+                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition-colors"
+              >
+                Continue to Next Stage
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Extraction Success Modal */}
+      {showExtractionModal && extractionResponse && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-lg p-6 max-w-2xl w-full mx-4 max-h-[80vh] overflow-y-auto">
+            <div className="text-center mb-4">
+              <div className="text-green-500 text-6xl mb-2">✅</div>
+              <h2 className="text-2xl font-bold text-gray-900 mb-2">Extraction Data Submitted Successfully!</h2>
+              <p className="text-gray-600">Your extraction process data has been recorded.</p>
+            </div>
+
+            <div className="bg-gray-50 rounded-lg p-4 mb-6">
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Extraction Details</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                <div>
+                  <span className="font-medium text-gray-700">Process ID:</span>
+                  <p className="text-gray-900 font-mono">{extractionResponse.extractiondata?._id}</p>
+                </div>
+                <div>
+                  <span className="font-medium text-gray-700">Metal:</span>
+                  <p className="text-gray-900">{extractionResponse.extractiondata?.metal}</p>
+                </div>
+                <div>
+                  <span className="font-medium text-gray-700">Source Type:</span>
+                  <p className="text-gray-900">{extractionResponse.extractiondata?.sourceType}</p>
+                </div>
+                <div>
+                  <span className="font-medium text-gray-700">Region:</span>
+                  <p className="text-gray-900">{extractionResponse.extractiondata?.region}</p>
+                </div>
+                <div>
+                  <span className="font-medium text-gray-700">Method:</span>
+                  <p className="text-gray-900">{extractionResponse.extractiondata?.method || 'N/A'}</p>
+                </div>
+                <div>
+                  <span className="font-medium text-gray-700">Material Grade:</span>
+                  <p className="text-gray-900">{extractionResponse.extractiondata?.materialGrade || 'N/A'}</p>
+                </div>
+              </div>
+            </div>
+
+            {extractionResponse.extractiondata && (
+              <div className="bg-blue-50 rounded-lg p-4 mb-6">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">Resource Consumption</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                  {extractionResponse.extractiondata.energySource && extractionResponse.extractiondata.energySource.length > 0 && (
+                    <div>
+                      <span className="font-medium text-gray-700">Energy Source:</span>
+                      <div className="text-gray-900">
+                        {extractionResponse.extractiondata.energySource.map((energy: any, index: number) => (
+                          <p key={index}>{energy.type}: {energy.percent}%</p>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                  {extractionResponse.extractiondata.totalEnergyConsumption_kWh_perTon && (
+                    <div>
+                      <span className="font-medium text-gray-700">Energy Consumption:</span>
+                      <p className="text-gray-900">{extractionResponse.extractiondata.totalEnergyConsumption_kWh_perTon} kWh/ton</p>
+                    </div>
+                  )}
+                  {extractionResponse.extractiondata.waterUsage_L_perTon && (
+                    <div>
+                      <span className="font-medium text-gray-700">Water Usage:</span>
+                      <p className="text-gray-900">{extractionResponse.extractiondata.waterUsage_L_perTon} L/ton</p>
+                    </div>
+                  )}
+                  {extractionResponse.extractiondata.wasteGenerated_kg_perTon && (
+                    <div>
+                      <span className="font-medium text-gray-700">Waste Generated:</span>
+                      <p className="text-gray-900">{extractionResponse.extractiondata.wasteGenerated_kg_perTon} kg/ton</p>
+                    </div>
+                  )}
+                  {extractionResponse.extractiondata.costOfExtraction_USD_perTon && (
+                    <div>
+                      <span className="font-medium text-gray-700">Extraction Cost:</span>
+                      <p className="text-gray-900">${extractionResponse.extractiondata.costOfExtraction_USD_perTon}/ton</p>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+
+            <div className="text-center">
+              <button
+                onClick={() => {
+                  setShowExtractionModal(false);
+                  setStageCounter(2); // Move to next stage
+                }}
+                className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-medium transition-colors"
+              >
+                Continue to Refining Stage
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 }

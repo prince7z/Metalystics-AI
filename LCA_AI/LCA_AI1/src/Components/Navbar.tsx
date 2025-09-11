@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="bg-[#f8f0f0] text-black p-4 border-b border-red-700 w-full">
       <ul className="flex space-x-4">
-        {metadata.stage.init != 0 && <li><a className={`${metadata.stage.init === 2 ? 'text-green-400' : ''}`} href="/initialise/:id">Initialise</a></li>}
+        {metadata.stage.init != 0 && <li><a className={`${metadata.stage.init === 2 ? 'text-green-400' : ''}`} href="/input">Initialise</a></li>}
         <li className="relative group">
           <button className="hover:bg-blue-600 px-3 py-1 rounded">
             Inventory ▼

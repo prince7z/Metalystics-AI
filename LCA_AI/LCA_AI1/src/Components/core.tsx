@@ -1,3 +1,5 @@
+import Chatbot from "./chatbot";
+
 export default function Core(params: any) {
     const core = params.data || params;
 
@@ -137,6 +139,8 @@ export default function Core(params: any) {
     return (
         <div className="max-w-6xl mx-auto p-6">
             {/* Header */}
+          <div className="flex gap-20">
+            <div>
             <div className="mb-6">
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">Environmental Impact Assessment</h1>
                 <p className="text-gray-600">{core.description}</p>
@@ -204,7 +208,10 @@ export default function Core(params: any) {
                     <span>Poor</span>
                 </div>
             </div>
-
+            </div>
+            
+            <Chatbot />
+          </div>
             {/* Action Items */}
             {core.actionsToTake && core.actionsToTake.length > 0 && (
                 <div className="mt-8">
