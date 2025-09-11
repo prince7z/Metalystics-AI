@@ -1,0 +1,134 @@
+{
+  "extraction": {
+    "materialGrade": "High Grade",
+    "sourceType": "Virgin",
+    "region": "North America",
+    "method": "Open-pit Mining",
+    "energySource": [],
+    "totalEnergyConsumption_kWh_perTon": 0,
+    "waterUsage_L_perTon": 0,
+    "wasteGenerated_kg_perTon": 0,
+    "costOfExtraction_USD_perTon": 0
+  },
+  "transportation": {
+    "mode": "Truck",
+    "distanceTravelled_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_perKm": 0,
+    "loadCapacityUtilization_percent": 0,
+    "averageVehicleLoad_tons": 0,
+    "packagingType": "Bulk",
+    "materialLossDuringTransport_percent": 0,
+    "costOfTransport_perTrip_USD": 0
+  },
+  "refining": {
+    "refiningType": "Electrolysis",
+    "materialInput_tons": 0,
+    "outputEfficiency_percent": 0,
+    "energyConsumption_kWh_perTon": 0,
+    "energySource": [],
+    "waterConsumption_L_perTon": 0,
+    "chemicalsUsed_kg_perTon": [],
+    "wasteSlagGenerated_kg_perTon": 0,
+    "materialLostAsImpurity_percent": 0,
+    "recyclingContent_percent": 0,
+    "recyclingOutputQuality": "None",
+    "operatingCost_USD_perTon": 0
+  },
+  "smelting": {
+    "default": {
+      "smeltingTech": "Blast Furnace",
+      "materialInput_tons_perBatch": 0,
+      "operatingTemp_C": 0,
+      "energyConsumption_kWh_perTon": 0,
+      "energySource": [],
+      "fluxMaterials_kg_perTon": [],
+      "slagGenerated_kg_perTon": 0,
+      "outputEfficiency_percent": 0,
+      "recycledScrapInput_tons_perTon": 0,
+      "recyclingQuality": "None",
+      "waterConsumption_L_perTon": 0,
+      "operatingCost_USD_perTon": 0
+    },
+    "Aluminium": {
+      "smeltingTech": "Hall-Héroult",
+      "materialInput_tons_perBatch": 0,
+      "operatingTemp_C": 0,
+      "energyConsumption_kWh_perTon": 0,
+      "energySource": [],
+      "fluxMaterials_kg_perTon": [],
+      "slagGenerated_kg_perTon": 0,
+      "outputEfficiency_percent": 0,
+      "recycledScrapInput_tons_perTon": 0,
+      "recyclingQuality": "None",
+      "waterConsumption_L_perTon": 0,
+      "operatingCost_USD_perTon": 0
+    }
+  },
+  "casting": {
+    "castingProcessType": "Die Casting",
+    "materialInputQuantity_tons": 0,
+    "operatingTemperature_C": 0,
+    "energyConsumption_kWh_per_ton": 0,
+    "energySource": [],
+    "moldMaterial": [],
+    "coolingMethod": "Water Cooled",
+    "waterConsumption_liters_per_ton": 0,
+    "emissions": {
+      "CO2_kg_per_ton": 0,
+      "NOx_kg_per_ton": 0,
+      "SOx_kg_per_ton": 0
+    },
+    "defectRate_percent": 0,
+    "scrapRecycled_percent": 0,
+    "scrapQualityLevel": "None",
+    "packagingType": "Bulk",
+    "finalProductYield_percent": 0,
+    "materialLoss_percent": 0,
+    "wasteGenerated_kg_per_ton": 0,
+    "operatingCost_per_ton": 0
+  },
+  "recycling": {
+    "recyclingProcessType": "Secondary Smelting",
+    "inputMaterialType": [],
+    "inputQuantity_tons": 0,
+    "sortingMethod": "Magnetic Separation",
+    "cleaningProcess": "Chemical Cleaning",
+    "energyConsumption_kWh_per_ton": 0,
+    "energySource": [],
+    "waterConsumption_liters_per_ton": 0,
+    "chemicalUsed_kg_per_ton": [],
+    "materialRecoveryRate_percent": 0,
+    "materialLoss_percent": 0,
+    "outputQualityLevel": "None",
+    "finalOutput_tons": 0,
+    "emissions": {
+      "CO2_kg_per_ton": 0,
+      "NOx_kg_per_ton": 0,
+      "SOx_kg_per_ton": 0
+    },
+    "slagGenerated_kg_per_ton": 0,
+    "hazardousWaste_kg_per_ton": 0,
+    "packagingType": "Bulk",
+    "costOfRecycling_per_ton": 0,
+    "transportationForRecycling": {
+      "mode": "Truck",
+      "distance_km": 0,
+      "fuelType": "Diesel",
+      "fuelConsumption_liters_per_km": 0,
+      "materialLossDuringTransport_percent": 0,
+      "costPerTrip": 0
+    }
+  },
+  "usagePhase": {
+    "usageDuration_years": 0,
+    "maintenanceFrequency_years": 0,
+    "energyConsumption_kWh_per_year": 0,
+    "maintenanceCost_USD_per_year": 0
+  },
+  "endOfLife": {
+    "disposalMethod": "Recycling",
+    "disposalCost_USD_per_ton": 0,
+    "environmentalImpact": ""
+  }
+}

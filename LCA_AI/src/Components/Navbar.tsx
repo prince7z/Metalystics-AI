@@ -5,7 +5,7 @@ export default function Navbar() {
   // 0 not valid, 1 valid , 2 filled
   const metadata = useRecoilValue(meta_data("1234"));
   return (
-    <nav className="bg-blue-500 text-white p-4">
+    <nav className="bg-[#f8f0f0] text-black p-4 border-b border-red-700 w-full">
       <ul className="flex space-x-4">
         {metadata.stage.init != 0 && <li><a className={`${metadata.stage.init === 2 ? 'text-green-400' : ''}`} href="/initialise/:id">Initialise</a></li>}
         <li className="relative group">
@@ -17,10 +17,10 @@ export default function Navbar() {
             {metadata.stage.inve.Tport_to_refinary != 0 && <a href="/inventory/transport-refinery/:id" className={`${metadata.stage.inve.Tport_to_refinary === 2 ? 'block px-4 py-2 text-green-500 hover:bg-green-300' : 'block px-4 py-2 hover:bg-gray-100'}`}>Transport to Refinery</a>}
             {metadata.stage.inve.refining != 0 && <a href="/inventory/refining/:id" className={`${metadata.stage.inve.refining === 2 ? 'block px-4 py-2 text-green-500 hover:bg-green-300' : 'block px-4 py-2 hover:bg-gray-100'}`}>Refining</a>}
             {metadata.stage.inve.smelting != 0 && <a href="/inventory/smelting/:id" className={`${metadata.stage.inve.smelting === 2 ? 'block px-4 py-2 text-green-500 hover:bg-green-300' : 'block px-4 py-2 hover:bg-gray-100'}`}>Smelting</a>}
-            {metadata.stage.inve.Tport_to_factory != 0 && <a href="/inventory/transport-factory/:id" className={`${metadata.stage.inve.Tport_to_factory === 2 ? 'block px-4 py-2 text-green-500 hover:bg-green-300' : 'block px-4 py-2 hover:bg-gray-100'}`}>Transport to Factory</a>}
-            {metadata.stage.inve.manufacturing != 0 && <a href="/inventory/manufacturing/:id" className={`${metadata.stage.inve.manufacturing === 2 ? 'block px-4 py-2 text-green-500 hover:bg-green-300' : 'block px-4 py-2 hover:bg-gray-100'}`}>Manufacturing</a>}
+            {/* {metadata.stage.inve.Tport_to_factory != 0 && <a href="/inventory/transport-factory/:id" className={`${metadata.stage.inve.Tport_to_factory === 2 ? 'block px-4 py-2 text-green-500 hover:bg-green-300' : 'block px-4 py-2 hover:bg-gray-100'}`}>Transport to Factory</a>} */}
+            {/* {metadata.stage.inve.manufacturing != 0 && <a href="/inventory/manufacturing/:id" className={`${metadata.stage.inve.manufacturing === 2 ? 'block px-4 py-2 text-green-500 hover:bg-green-300' : 'block px-4 py-2 hover:bg-gray-100'}`}>Manufacturing</a>} */}
             {metadata.stage.inve.Tport_to_consumer != 0 && <a href="/inventory/transport-consumer/:id" className={`${metadata.stage.inve.Tport_to_consumer === 2 ? 'block px-4 py-2 text-green-500 hover:bg-green-300' : 'block px-4 py-2 hover:bg-gray-100'}`}>Transport to Consumer</a>}
-            {metadata.stage.inve.usage_phase != 0 && <a href="/inventory/usage-phase/:id" className={`${metadata.stage.inve.usage_phase === 2 ? 'block px-4 py-2 text-green-500 hover:bg-green-300' : 'block px-4 py-2 hover:bg-gray-100'}`}>Usage Phase</a>}
+            {/* {metadata.stage.inve.usage_phase != 0 && <a href="/inventory/usage-phase/:id" className={`${metadata.stage.inve.usage_phase === 2 ? 'block px-4 py-2 text-green-500 hover:bg-green-300' : 'block px-4 py-2 hover:bg-gray-100'}`}>Usage Phase</a>} */}
             {metadata.stage.inve.Recycle != 0 && <a href="/inventory/recycle/:id" className={`${metadata.stage.inve.Recycle === 2 ? 'block px-4 py-2 text-green-500 hover:bg-green-300' : 'block px-4 py-2 hover:bg-gray-100'}`}>Recycle</a>}
             {metadata.stage.inve.end_of_life != 0 && <a href="/inventory/end-of-life/:id" className={`${metadata.stage.inve.end_of_life === 2 ? 'block px-4 py-2 text-green-500 hover:bg-green-300' : 'block px-4 py-2 hover:bg-gray-100'}`}>End of Life</a>}
           </div>
