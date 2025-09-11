@@ -1,0 +1,552 @@
+
+
+/* ron, Copper, Lead, etc.	Extraction → Smelting → Refining	Iron ore → Pig iron → Steel
+Aluminium	Extraction → Refining → Smelting	Bauxite → Alumina → Aluminium */
+{
+  "_id": "lca_project_1234",
+  "projectName": "Primary Aluminum Ingot Production LCA",
+  "metalType": "Aluminium",
+  "goal": "To assess the environmental impact of producing 1 tonne of primary aluminum ingot.",
+  "systemBoundary": "Cradle-to-Gate",
+
+  "inventoryData": {
+    "extraction": {
+      "processId": "extraction_bauxite_au_01",
+      "description": "Mining and extraction of bauxite ore."
+    },
+    "transportToRefinery": {
+      "processId": "transport_ship_long_haul_01",
+      "description": "Transportation of bauxite to the refinery via ship."
+    },
+    "refining": {
+      "processId": "refining_bayer_std_01",
+      "description": "Refining bauxite to produce alumina using the Bayer process."
+    },
+    "smelting": {
+      "processId": "smelting_hall_hydro_01",
+      "description": "Smelting alumina to primary aluminum using the Hall-Héroult process."
+    },
+    "casting": {
+      "processId": "casting_ingot_std_01",
+      "description": "Casting molten aluminum into ingots."
+    }
+  },
+  "results": {
+    "environmentalImpact": {
+      "resultId": "impact_result_55aa",
+      "description": "Calculated environmental impacts such as GHG emissions, energy use, etc."
+    },
+    "circularityMetrics": {
+      "resultId": "circ_result_55bb",
+      "description": "Circular economy metrics such as recycled content and recovery rates."
+    },
+    "generatedReport": {
+      "fileId": "report_pdf_55cc",
+      "fileType": "pdf",
+      "description": "Final LCA report document."
+    }
+  },
+
+  "meta": {
+    "createdBy": "user_001",
+    "createdAt": "2025-09-07T18:30:00Z",
+    "lastUpdated": "2025-09-07T19:00:00Z"
+    
+  }
+}
+
+
+
+{
+  "extraction": {
+    "metal": "Aluminium",
+    "materialGrade": "High-grade Bauxite",
+    "sourceType": "Virgin", 
+    "region": "Australia",
+    "method": "Open-pit Mining",
+
+    "energySource": [
+      {
+        "type": "Coal",
+        "percent": 50
+      },
+      {
+        "type": "Natural Gas",
+        "percent": 20
+      },
+      {
+        "type": "Renewable",
+        "percent": 30
+      }
+    ],
+
+    "totalEnergyConsumption_kWh_perTon": 1200,
+    "waterUsage_L_perTon": 500,
+    "wasteGenerated_kg_perTon": 200,
+
+    "costOfExtraction_USD_perTon": 75.50
+  }
+}
+
+
+{
+  "transportation": {
+    "mode": "Truck",  
+    "distanceTravelled_km": 250,  
+    
+    "fuelType": "Diesel", 
+    "fuelConsumption_perKm": 0.35,  
+    
+    "loadCapacityUtilization_percent": 85,  
+    "averageVehicleLoad_tons": 20,  
+    
+    "packagingType": "Bulk",  
+    
+    "materialLossDuringTransport_percent": 2.5,  
+    
+    "costOfTransport_perTrip_USD": 500.00
+  }
+}
+
+{
+  "smelting": {
+    "smeltingTech": "Hall-Héroult",           
+
+    "materialInput_tons_perBatch": 1.0,       
+
+    "operatingTemp_C": 960,                   
+
+    "energyConsumption_kWh_perTon": 14000,    
+
+    "energySource": [
+      { "type": "Coal", "percent": 50 },
+      { "type": "NaturalGas", "percent": 20 },
+      { "type": "Renewable", "percent": 30 }
+    ],
+
+    "fluxMaterials_kg_perTon": [
+      { "type": "Limestone", "amount_kg": 20 },
+      { "type": "Dolomite", "amount_kg": 10 }
+    ],
+
+    "slagGenerated_kg_perTon": 150,            
+
+    "outputEfficiency_percent": 92.5,          
+
+    "recycledScrapInput_tons_perTon": 0.05,    
+
+    "recyclingQuality": "Closed-loop",         
+      /* allowed values: "Closed-loop", "Open-loop", "Downcycled", "None" */
+
+    "waterConsumption_L_perTon": 200,          
+
+    "operatingCost_USD_perTon": 180.75,
+
+    "notes": "All numeric fields are per tonne of final metal unless otherwise specified."
+  }
+}
+{
+  "refining": {
+    "refiningType": "Electrolysis", 
+    /* Possible values: "Electrolysis", "Chemical", "Thermal", "Solvent Extraction", "Electrowinning" */
+
+    "materialInput_tons": 1.0,                    
+    /* Quantity of raw material processed (tons) */
+
+    "outputEfficiency_percent": 95.5,             
+    /* Percentage of refined metal output from input material */
+
+    "energyConsumption_kWh_perTon": 8500,         
+    /* Total energy consumption per ton of refined metal */
+
+    "energySource": [
+      { "type": "Coal", "percent": 50 },
+      { "type": "NaturalGas", "percent": 20 },
+      { "type": "Renewable", "percent": 30 }
+    ],
+
+    "waterConsumption_L_perTon": 300,             
+    /* Liters of water used per ton of material refined */
+
+    "chemicalsUsed_kg_perTon": [
+      { "name": "Cycolite", "amount_kg": 0.5 },
+      { "name": "Sodium Carbonate", "amount_kg": 1.2 }
+    ],
+    /* Chemicals consumed in the refining process */
+
+    "wasteSlagGenerated_kg_perTon": 80,          
+    /* Waste slag or by-product produced per ton */
+
+    "materialLostAsImpurity_percent": 1.2,       
+    /* Percentage of material lost due to impurities */
+
+    "recyclingContent_percent": 15,              
+    /* Percentage of recycled material included in refining feed */
+
+    "recyclingOutputQuality": "Closed-loop",    
+    /* Options: "Closed-loop", "Open-loop", "Downcycled", "None" */
+
+    "operatingCost_USD_perTon": 210.75           
+    /* Cost of refining per ton of output metal */
+  }
+}
+
+{
+  "casting": {
+    "castingProcessType": "Die Casting", 
+    "materialInputQuantity_tons": 100, 
+    "operatingTemperature_C": 750, 
+    "energyConsumption_kWh_per_ton": 120,
+    "energySource": [
+      { "type": "Electricity", "percent": 60 },
+      { "type": "Natural Gas", "percent": 40 }
+    ],
+    "moldMaterial": [
+      { "type": "Sand", "amount_kg_per_ton": 50 },
+      { "type": "Graphite", "amount_kg_per_ton": 10 }
+    ],
+    "coolingMethod": "Water Cooled",
+    "waterConsumption_liters_per_ton": 300,
+    "emissions": {
+      "CO2_kg_per_ton": 150,
+      "NOx_kg_per_ton": 5,
+      "SOx_kg_per_ton": 3
+    },
+    "defectRate_percent": 2.5,
+    "scrapRecycled_percent": 80,
+    "scrapQualityLevel": "Closed Loop", 
+    "packagingType": "Bulk",
+    "finalProductYield_percent": 95,
+    "materialLoss_percent": 5,
+    "wasteGenerated_kg_per_ton": 20,
+    "operatingCost_per_ton": 450
+  }
+}
+
+{
+  "recycling": {
+    "recyclingProcessType": "Secondary Smelting", 
+    "inputMaterialType": [
+      { "type": "Post-Consumer Scrap", "percent": 60 },
+      { "type": "Industrial Scrap", "percent": 40 }
+    ],
+    "inputQuantity_tons": 100,
+    "sortingMethod": "Magnetic Separation",
+    "cleaningProcess": "Chemical Cleaning",
+
+    "energyConsumption_kWh_per_ton": 150,
+    "energySource": [
+      { "type": "Electricity", "percent": 50 },
+      { "type": "Natural Gas", "percent": 30 },
+      { "type": "Renewable", "percent": 20 }
+    ],
+
+    "waterConsumption_liters_per_ton": 250,
+    "chemicalUsed_kg_per_ton": [
+      { "name": "Degreaser", "amount": 2 },
+      { "name": "Flux Agent", "amount": 1 }
+    ],
+
+    "materialRecoveryRate_percent": 92,
+    "materialLoss_percent": 8,
+
+    "outputQualityLevel": "Closed Loop", 
+    "finalOutput_tons": 92,
+
+    "emissions": {
+      "CO2_kg_per_ton": 180,
+      "NOx_kg_per_ton": 4,
+      "SOx_kg_per_ton": 2
+    },
+
+    "slagGenerated_kg_per_ton": 25,
+    "hazardousWaste_kg_per_ton": 5,
+
+    "packagingType": "Bulk",
+    "costOfRecycling_per_ton": 320,
+
+    "transportationForRecycling": {
+      "mode": "Truck",
+      "distance_km": 150,
+      "fuelType": "Diesel",
+      "fuelConsumption_liters_per_km": 0.4,
+      "materialLossDuringTransport_percent": 0.5,
+      "costPerTrip": 5000
+    }
+  }
+}
+
+
+e{
+  "env_impact": {
+    "core": {{
+      "globalWarmingPotential_kgCO2eq": 4000,
+      "acidificationPotential_kgSO2eq": 120,
+      "eutrophicationPotential_kgPO4eq": 15,
+      "photochemicalSmogPotential_kgC2H4eq": 8,
+      "ozoneDepletionPotential_kgCFC11eq": 0.002,
+      "humanToxicity_kg14DCBeq": 250,
+      "ecoToxicity_kg14DCBeq": 310,
+      "waterUse_m3": 45,
+      "landImpact_m2_year": 12
+    },
+action to take: [string]}
+
+    "stageWiseBreakdown": {
+      "unit": "kgCO2eq",
+      "stages": [
+        {
+          "stage": "raw_material_extraction",
+          "value": 2000,
+          "percentOfTotal": 50
+        },
+        {
+          "stage": "transportation_all",
+          "value": 600,
+          "percentOfTotal": 15
+        },
+        {
+          "stage": "refining",
+          "value": 800,
+          "percentOfTotal": 20
+        },
+        {
+          "stage": "smelting",
+          "value": 400,
+          "percentOfTotal": 10
+        },
+        {
+          "stage": "casting",
+          "value": 200,
+          "percentOfTotal": 5
+        }
+      ],
+      "total": {
+        "value": 4000,
+        "percentOfTotal": 100
+      }
+action to take: [string]}
+
+    },
+
+    "totalPollutionOutput": {
+{
+      "air": [
+        { "pollutant": "CO2", "value_kg_perTon": 1100 },
+        { "pollutant": "SO2", "value_kg_perTon": 50 },
+        { "pollutant": "NOx", "value_kg_perTon": 30 }
+      ],
+      "water": [
+        { "pollutant": "Fluoride", "value_ml_perTon": 1100 },
+        { "pollutant": "Oil Residue", "value_ml_perTon": 400 }
+      ],
+      "soil": [
+        { "pollutant": "Red Mud", "value_ton_perTon": 11 },
+        { "pollutant": "Bauxite Residue", "value_ton_perTon": 2 }
+      ]
+    }
+action to take: [string]}
+,
+{
+"resourceEfficiency": {
+    "totalEnergyConsumed": {
+      "kWh_perTon": 15000,
+      "MJ_perTon": 54000
+    },
+    "energyBreakdown": [
+      { "source": "Coal", "percent": 45 },
+      { "source": "Natural Gas", "percent": 25 },
+      { "source": "Renewable", "percent": 30 }
+    ],
+    "materialRecoveryRate_percent": {
+      "recycled": 80,
+      "landfilled": 20
+    },
+    "waterConsumption_m3_perTon": 45,
+    "circularityScore_percent": 72,
+    "wasteReductionPotential_percent": 15,
+    "efficiencyTrend": "Improving",
+    "actionsToTake": [
+      "Switch 15% coal energy to renewable sources to cut GHG emissions by 10%",
+      "Increase recycled material content from 80% to 90% to reduce landfill waste",
+      "Optimize smelting temperature control to save 5% energy per ton",
+      "Install water recycling system to reduce freshwater use by 20%"
+    ]
+  }
+}
+
+{"circularity": {
+  "metrics": {
+    "recycledContent_percent": 30,
+    "materialRecoveryRate_percent": 80,
+    "reuseRate_percent": 40,
+    "landfillRate_percent": 20,
+    "downcyclingRisk_percent": 15,
+    "circularityScore_percent": 72,
+
+    "circularitySummary": {
+      "finalCircularityScore_percent": 72,
+      "targetScore_percent": 85,
+      "priorityActions": [
+        "Increase post-consumer scrap collection by 15%",
+        "Switch 20% of production energy to renewable sources",
+        "Reduce landfill disposal below 10%"
+      ]
+    }
+  },
+
+  "strategies": {
+    "designAndProductLife": {
+      "designLife_years": 15,
+      "actualAverageLife_years": 10,
+      "repairabilityScore_percent": 75,
+      "maintenanceFrequency_perYear": 2,
+      "lifeExtensionStrategies": [
+        "Modular design for easy part replacement",
+        "Durable alloy selection to reduce corrosion",
+        "Protective coating for extended lifespan"
+      ],
+      "actionsToTake": [
+        "Enhance modular design to further improve repairability",
+        "Use higher quality corrosion-resistant alloys",
+        "Create guidelines for consumers to perform regular maintenance",
+        "Develop spare parts marketplace to encourage repairs instead of replacement"
+      ]
+    },
+
+    "reusePotential": {
+      "componentsReusable_percent": 40,
+      "primaryReuseApplications": [
+        "Construction industry scrap reuse",
+        "Automotive component remanufacturing",
+        "Consumer electronics casing reuse"
+      ],
+      "barriersToReuse": [
+        "Contamination of recovered material",
+        "Lack of standardized collection systems"
+      ],
+      "actionsToTake": [
+        "Implement standardized cleaning and decontamination processes",
+        "Establish reverse logistics for component collection",
+        "Partner with industries that can directly reuse scrap material",
+        "Create incentives for consumers to return used products"
+      ]
+    },
+
+    "recycledMaterialFlow": {
+      "currentRecycledContent_percent": 30,
+      "targetRecycledContent_percent": 50,
+      "sources": [
+        { "type": "Post-Consumer Scrap", "percent": 20 },
+        { "type": "Industrial Scrap", "percent": 10 }
+      ],
+      "qualityLevel": "Closed Loop",
+      "downcyclingRisk_percent": 15,
+      "actionsToTake": [
+        "Increase post-consumer scrap collection by introducing take-back programs",
+        "Improve industrial scrap recovery efficiency with real-time tracking",
+        "Invest in purification technology to maintain closed-loop quality",
+        "Reduce downcycling risk by establishing high-grade sorting systems"
+      ]
+    },
+
+    "endOfLifeManagement": {
+      "collectionRate_percent": 65,
+      "sortingMethod": "Magnetic Separation",
+      "materialRecoveryRate_percent": 80,
+      "landfillRate_percent": 20,
+      "energyRecoveryRate_percent": 5,
+      "actionsToTake": [
+        "Increase collection rate to above 80% by expanding collection points",
+        "Upgrade sorting methods with AI-based recognition for better accuracy",
+        "Reduce landfill rate by promoting secondary markets for recovered materials",
+        "Use energy recovery for non-recyclable waste to achieve zero-waste targets"
+      ]
+    }
+  },
+
+  "stageWiseCircularityActions": [
+    {
+      "stage": "extraction",
+      "actionsToTake": [
+        "Switch to renewable-powered mining equipment",
+        "Implement water recycling at mine site to reduce freshwater usage by 30%"
+      ]
+    },
+    {
+      "stage": "refining",
+      "actionsToTake": [
+        "Recover waste heat to reduce energy consumption by 10%",
+        "Increase recycled material input to reduce virgin ore demand"
+      ]
+    },
+    {
+      "stage": "smelting",
+      "actionsToTake": [
+        "Optimize smelting temperature control to save 5% energy per ton",
+        "Use flux recycling to minimize slag generation"
+      ]
+    },
+    {
+      "stage": "casting",
+      "actionsToTake": [
+        "Increase recycled scrap use to 90% during casting",
+        "Automate defect detection to reduce rework waste"
+      ]
+    },
+    {
+      "stage": "recycling",
+      "actionsToTake": [
+        "Improve sorting with AI-driven material recognition",
+        "Introduce advanced chemical cleaning to increase output quality"
+      ]
+    }
+  ],
+
+  "comparison": {
+    "linearVsCircular": {
+      "linearModel": {
+        "rawMaterialUse_percentVirgin": 90,
+        "recycledContent_percent": 10,
+        "landfillRate_percent": 60,
+        "reuseRate_percent": 5,
+        "productLife_years": 8,
+        "wasteGenerated_kgPerTon": 1200,
+        "energyConsumption_kWhPerTon": 17000,
+        "CO2Emissions_kgPerTon": 4500
+      },
+      "circularModel": {
+        "rawMaterialUse_percentVirgin": 40,
+        "recycledContent_percent": 60,
+        "landfillRate_percent": 10,
+        "reuseRate_percent": 50,
+        "productLife_years": 15,
+        "wasteGenerated_kgPerTon": 400,
+        "energyConsumption_kWhPerTon": 11000,
+        "CO2Emissions_kgPerTon": 2500
+      },
+      "keyIndicators": [
+        { "metric": "Virgin Material Use", "linear": 90, "circular": 40, "unit": "%", "improvement": "55% reduction" },
+        { "metric": "Landfill Rate", "linear": 60, "circular": 10, "unit": "%", "improvement": "83% reduction" },
+        { "metric": "CO2 Emissions", "linear": 4500, "circular": 2500, "unit": "kg/ton", "improvement": "44% reduction" },
+        { "metric": "Product Life", "linear": 8, "circular": 15, "unit": "years", "improvement": "87% increase" }
+      ],
+      "gapAnalysis": [
+        "Virgin material use is 50% higher in linear model, indicating resource depletion risk",
+        "Landfill rate is 6 times higher in linear model, showing poor waste management",
+        "CO2 emissions are 80% higher in linear model, contributing to climate change",
+        "Circular model extends product life by 7 years, improving durability and reducing replacement demand"
+      ],
+      "actionsToTake": [
+        "Transition to recycled inputs to reduce virgin raw material consumption",
+        "Implement advanced waste segregation to cut landfill rate below 10%",
+        "Invest in renewable energy sources to reduce energy intensity",
+        "Redesign products for durability and ease of repair"
+      ]
+    }
+  }
+}
+
+}
+
+
