@@ -6,7 +6,7 @@ export const RefiningSchema = new mongoose.Schema({
   refiningType: {
     type: String,
     required: true,
-    enum: ["Electrolysis", "Chemical", "Thermal", "Solvent Extraction", "Electrowinning"]
+    
   },
   materialInput_tons: {
     type: Number,

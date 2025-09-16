@@ -29,6 +29,7 @@ export const LCAProjectSchema = new mongoose.Schema({
   },
   inventoryData: InventoryDataSchema,
   results: {
+    
       resultId: {type: mongoose.Schema.Types.ObjectId, ref: "Results" },
       description: String,
      
@@ -48,6 +49,19 @@ export const LCAProjectSchema = new mongoose.Schema({
       enum: ["Draft", "In Progress", "Completed", "Archived"],
       default: "Draft"
     },
+    inventory:{
+                      extraction: Number,
+                      Tport_to_refinary: Number,
+                      refining: Number,
+                      smelting: Number,
+                      Casting: Number,
+                      Tport_to_consumer: Number,
+                      usage_phase: Number,
+                      Recycle: Number,
+                      end_of_life: Number,
+                      result : Number
+    },
+
     version: {
       type: Number,
       default: 1

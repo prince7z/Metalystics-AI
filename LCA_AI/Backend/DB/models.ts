@@ -5,7 +5,8 @@ import {
   RefiningSchema, 
   SmeltingSchema, 
   CastingSchema, 
-  RecyclingSchema 
+  RecyclingSchema, 
+  EnergySourceSchema
 } from "./schemas";
 
 // Create all models in one centralized file
@@ -15,6 +16,11 @@ export const Refining = mongoose.model("Refining", RefiningSchema);
 export const Smelting = mongoose.model("Smelting", SmeltingSchema);
 export const Casting = mongoose.model("Casting", CastingSchema);
 export const Recycling = mongoose.model("Recycling", RecyclingSchema);
+export const EndOfLife = mongoose.model("EndOfLife", new mongoose.Schema({
+  recyclingRate: { type: Number   },
+  disposalMethod: { type: String },
+  Energy_used_kWh_perTon: { type: Number},
+}));
 
 // Export the LCAProject model as well
 export { LCAProject } from "./schemas/project";

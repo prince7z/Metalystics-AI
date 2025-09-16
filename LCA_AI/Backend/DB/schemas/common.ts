@@ -5,7 +5,6 @@ export const EnergySourceSchema = new mongoose.Schema({
   type: {
     type: String,
     required: true,
-    enum: ["Coal", "Natural Gas", "Renewable", "Electricity", "Nuclear", "Hydroelectric", "Solar", "Wind"]
   },
   percent: {
     type: Number,

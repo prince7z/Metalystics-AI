@@ -60,7 +60,7 @@ export default function Landing() {
             <span className="text-6xl mt-[100px] pb-[2rem]"> Metalytics AI </span>
             <span className="text-4xl text-gray-700 pb-[2rem]"> An AI-powered platform for Life Cycle Assessment (LCA) </span>
             <button className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800" 
-            onClick={() => navigate('/input')}
+            onClick={() => navigate('/project/initialise')}
             > Get Started </button>
 
             {/* Previous Projects Section */}
@@ -101,7 +101,7 @@ export default function Landing() {
                                 <div className="mt-4 pt-4 border-t border-gray-100">
                                     <button 
                                         className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors duration-200 text-sm font-medium"
-                                        onClick={() => navigate(`/input?projectId=${project._id}`)}
+                                        onClick={() => navigate(`/input/${project._id}`)}
                                     >
                                         Continue Project
                                     </button>

@@ -59,7 +59,6 @@ const [gauge, setGauge] = useState<any>(null);
 
   return (
     <div>
-      <h1>Project Circularity</h1>/
       {matrics && <Matrics data={matrics} />}
       {gauge && <Gauge data={gauge} />}
       {strategies && <Strategies data={strategies} />}

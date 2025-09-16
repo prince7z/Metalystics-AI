@@ -6,7 +6,6 @@ export const SmeltingSchema = new mongoose.Schema({
   smeltingTech: {
     type: String,
     required: true,
-    enum: ["Hall-Héroult", "Blast Furnace", "Electric Arc Furnace", "Induction Furnace", "Reverberatory Furnace"]
   },
   materialInput_tons_perBatch: {
     type: Number,

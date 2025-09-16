@@ -23,11 +23,7 @@ export const InventoryDataSchema = new mongoose.Schema({
     description: String,
    
   },
-  transportToFactory: {
-    processId: {type: mongoose.Schema.Types.ObjectId, ref: "Transportation"},
-    description: String,
-    
-  },
+
   casting: {
     processId: {type: mongoose.Schema.Types.ObjectId, ref: "Casting"},
     description: String,
@@ -51,14 +47,16 @@ export const InventoryDataSchema = new mongoose.Schema({
     
   },
   endOfLife: {
-    description: String,
-    disposalMethod: {
-      type: String,
-      enum: ["Recycling", "Landfill", "Incineration", "Reuse", "Composting"]
-    },
-    disposalCost_USD_per_ton: Number,
+    processId: {type: mongoose.Schema.Types.ObjectId, ref: "EndOfLife"},
+    description: String,   
     
   }
+
+
+  
 });
+
+
+
 
 export const InventoryData = mongoose.model("InventoryData", InventoryDataSchema);

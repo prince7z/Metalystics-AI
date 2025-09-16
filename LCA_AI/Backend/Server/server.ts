@@ -12,7 +12,8 @@ import {
   Refining, 
   Smelting, 
   Casting, 
-  Recycling 
+  Recycling,
+  EndOfLife
 } from '../DB/models';
 // Import process templates
 import processTemplates from './data/processTemplates.json';
@@ -53,7 +54,6 @@ const createEmptyProcessDocuments = async (metalType: string, projectId: string)
 
     // Create empty transportation documents (3 different stages)
     const transportToRefinery = new Transportation(processTemplates.transportation);
-    const transportToFactory = new Transportation(processTemplates.transportation);
     const transportToConsumer = new Transportation(processTemplates.transportation);
 
     // Create empty refining document
@@ -69,67 +69,56 @@ const createEmptyProcessDocuments = async (metalType: string, projectId: string)
 
     // Create empty recycling document
     const recycling = new Recycling(processTemplates.recycling);
+    const endOfLife = new EndOfLife(processTemplates.endOfLife);
 
     // Save all process documents
     const savedExtraction = await extraction.save();
     const savedTransportToRefinery = await transportToRefinery.save();
     const savedRefining = await refining.save();
     const savedSmelting = await smelting.save();
-    const savedTransportToFactory = await transportToFactory.save();
     const savedCasting = await casting.save();
     const savedTransportToConsumer = await transportToConsumer.save();
     const savedRecycling = await recycling.save();
+    const savedEndOfLife = await endOfLife.save();
+
 
     return {
       extraction: {
-        processId: savedExtraction._id,
-        description: `${metalType} extraction process`
+      processId: savedExtraction._id,
+      description: `${metalType} extraction process`
       },
       transportToRefinery: {
-        processId: savedTransportToRefinery._id,
-        description: `Transportation to refinery`
+      processId: savedTransportToRefinery._id,
+      description: `Transportation to refinery`
       },
       refining: {
-        processId: savedRefining._id,
-        description: `${metalType} refining process`
+      processId: savedRefining._id,
+      description: `${metalType} refining process`
       },
       smelting: {
-        processId: savedSmelting._id,
-        description: `${metalType} smelting process`
-      },
-      transportToFactory: {
-        processId: savedTransportToFactory._id,
-        description: `Transportation to factory`
+      processId: savedSmelting._id,
+      description: `${metalType} smelting process`
       },
       casting: {
-        processId: savedCasting._id,
-        description: `${metalType} casting process`
+      processId: savedCasting._id,
+      description: `${metalType} casting process`
       },
       transportToConsumer: {
-        processId: savedTransportToConsumer._id,
-        description: `Transportation to consumer`
+      processId: savedTransportToConsumer._id,
+      description: `Transportation to consumer`
       },
       usagePhase: {
-        processId: null,
-        description: `${metalType} usage phase`,
-        ...processTemplates.usagePhase
+      processId: null,
+      description: `${metalType} usage phase`,
+      ...processTemplates.usagePhase
       },
       recycling: {
-        processId: savedRecycling._id,
-        description: `${metalType} recycling process`
+      processId: savedRecycling._id,
+      description: `${metalType} recycling process`
       },
       endOfLife: {
-        processId: null,
-        description: `${metalType} end of life`,
-        ...processTemplates.endOfLife,
-        disposalMethod: processTemplates.endOfLife.disposalMethod as
-          | "Recycling"
-          | "Landfill"
-          | "Incineration"
-          | "Reuse"
-          | "Composting"
-          | null
-          | undefined
+      processId: savedEndOfLife._id,
+      description: `${metalType} end of life`,
       }
     };
   } catch (error) {
@@ -169,6 +158,46 @@ router.post('/init', async (req, res) => {
     }
 
     // Create the main project document first
+    let inv_meta;
+    switch (systemBoundary) {
+      case "Cradle-to-Gate":inv_meta = {
+        extraction: 1,
+        Tport_to_refinary: 1,
+        refining: 1,
+        smelting: 1,
+        Casting: 0,
+        Tport_to_consumer: 0,
+        usage_phase: 0,
+        Recycle: 0,
+        end_of_life: 0
+      }; break;
+      case "Cradle-to-Grave": inv_meta = {
+        extraction: 1,
+        Tport_to_refinary: 1,
+        refining: 1,
+        smelting: 1,
+        Casting: 1,
+        Tport_to_consumer: 1,
+        usage_phase: 0,
+        Recycle: 0,
+        end_of_life: 1
+      }; break;
+
+      case "Cradle-to-Cradle": inv_meta = {
+        extraction: 1,
+        Tport_to_refinary: 1,
+        refining: 1,
+        smelting: 1,
+        Casting: 1,
+        Tport_to_consumer: 1,
+        usage_phase: 1,
+        Recycle: 1,
+        end_of_life: 1
+      }; break;
+      default:
+        return res.status(400).send({ error: 'Invalid systemBoundary value' });
+    }
+
     const newProject = new LCAProject({
       projectName,
       metalType,
@@ -177,6 +206,7 @@ router.post('/init', async (req, res) => {
       functionalUnit,
       meta: {
         createdBy: { name: "JNARDDC" },
+        inventory:inv_meta,
         status: "Draft"
       }
     });
@@ -206,10 +236,10 @@ router.post('/init', async (req, res) => {
         transportToRefinery: inventoryData.transportToRefinery.processId,
         refining: inventoryData.refining.processId,
         smelting: inventoryData.smelting.processId,
-        transportToFactory: inventoryData.transportToFactory.processId,
         casting: inventoryData.casting.processId,
         transportToConsumer: inventoryData.transportToConsumer.processId,
-        recycling: inventoryData.recycling.processId
+        recycling: inventoryData.recycling.processId,
+        endOfLife: inventoryData.endOfLife.processId
       }
     });
   } catch (error) {
@@ -244,10 +274,10 @@ router.get('/:id', async (req, res) => {
       .populate('inventoryData.transportToRefinery.processId')
       .populate('inventoryData.refining.processId')
       .populate('inventoryData.smelting.processId')
-      .populate('inventoryData.transportToFactory.processId')
       .populate('inventoryData.casting.processId')
       .populate('inventoryData.transportToConsumer.processId')
-      .populate('inventoryData.recycling.processId');
+      .populate('inventoryData.recycling.processId')
+      .populate('inventoryData.endOfLife.processId');
 
     if (!project) {
       return res.status(404).send({ error: 'Project not found' });
