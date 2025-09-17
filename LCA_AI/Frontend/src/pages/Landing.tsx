@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom"
 import { useState, useEffect } from "react"
 import axios from "axios"
-
+const BaseURL = "http://localhost:5000" ;
 interface Project {
     _id: string;
     projectName: string;
@@ -25,7 +25,7 @@ export default function Landing() {
 
     const fetchProjects = async () => {
         try {
-            const response = await axios.get('http://localhost:5000/api/project/all');
+            const response = await axios.get(`${BaseURL}/api/project/all`);
             setProjects(response.data.projects);
         } catch (error) {
             console.error('Error fetching projects:', error);

@@ -10,7 +10,8 @@ import Results from './pages/Results'
 import Chatbot from './Components/chatbot'
 
 function App() {
-  
+
+
 
   return (
     <div className="bg-white text-black p-4">

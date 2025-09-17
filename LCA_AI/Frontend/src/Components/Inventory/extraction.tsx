@@ -100,7 +100,7 @@ export default function Extraction({ projectId, onSuccess, onError }: Extraction
 
   return (
     <>
-      <div className="bg-white rounded-lg shadow-sm border p-6">
+      <div className="bg-white margin-top  rounded-lg shadow-sm border p-6">
         <div className="mb-6">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Extraction</h1>
           <p className="text-gray-600">Enter the details for raw material extraction process</p>

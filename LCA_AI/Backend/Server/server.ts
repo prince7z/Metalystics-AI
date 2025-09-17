@@ -1,11 +1,12 @@
 import express from 'express';
-//import LOGS from './Midware/logs';
+import dotenv from 'dotenv';
 import INVENTORY from './Routes/Inventory';
 import RESULTS from './Routes/Results';
 import cors from 'cors';
 import {LCAProject} from '../DB/schemas/project';
 import { connectDB } from '../DB/MDB';
-// Import all process models
+dotenv.config();
+
 import { 
   Extraction, 
   Transportation, 
@@ -17,6 +18,7 @@ import {
 } from '../DB/models';
 // Import process templates
 import processTemplates from './data/processTemplates.json';
+const port = process.env.PORT ;
 
 const app = express();
 
@@ -301,6 +303,6 @@ app.use("/api/inventory", INVENTORY);
 app.use("/api/results", RESULTS);
 
 
-app.listen(5000, () => {
-  console.log('Server is running on port 5000');
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
 });

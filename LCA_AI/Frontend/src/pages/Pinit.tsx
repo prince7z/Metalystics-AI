@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Navigate, useNavigate } from 'react-router-dom';
 
+const BaseURL = "http://localhost:5000";
+
 export default function Pinit() {
   const navigate = useNavigate();
   const [projectName, setProjectName] = useState("");
@@ -29,7 +31,7 @@ export default function Pinit() {
     setSuccess("");
 
     try {
-      const response = await axios.post("http://localhost:5000/api/project/init", {
+      const response = await axios.post(`${BaseURL}/api/project/init`, {
         projectName,
         metalType,
         goal,
