@@ -1,0 +1,1870 @@
+[{
+  "_id": {
+    "$oid": "68c0276e787facaf08700451"
+  },
+  "projectName": "Ministry of mined",
+  "metalType": "al",
+  "goal": "To assess the environmental impact of producing 1 tonne of primary al ingot.",
+  "systemBoundary": "Cradle-to-Cradle",
+  "functionalUnit": "1 tonne",
+  "meta": {
+    "status": "Draft",
+    "version": 1,
+    "createdAt": {
+      "$date": "2025-09-09T13:11:10.447Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-09T13:11:10.448Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-09-09T13:11:10.466Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-16T14:34:14.386Z"
+  },
+  "__v": 0,
+  "inventoryData": {
+    "transportToRefinery": {
+      "processId": {
+        "$oid": "68c96326d2c5c7932762c4a4"
+      }
+    },
+    "_id": {
+      "$oid": "68c96326d2c5c7932762c4a3"
+    },
+    "refining": {
+      "processId": {
+        "$oid": "68c9673eb668f0e346c46c9e"
+      }
+    },
+    "smelting": {
+      "processId": {
+        "$oid": "68c96fc2ab7436e6cd78eda5"
+      }
+    },
+    "casting": {
+      "processId": {
+        "$oid": "68c973cf77601c52e51021b8"
+      }
+    },
+    "endOfLife": {
+      "processId": {
+        "$oid": "68c975664dcfa0c8dbaf7a65"
+      }
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68c0714964eddc8d8fe59097"
+  },
+  "projectName": "Green mines",
+  "metalType": "al",
+  "goal": "To assess the environmental impact of producing 1 tonne of primary al ingot.",
+  "systemBoundary": "Cradle-to-Cradle",
+  "functionalUnit": "1 tonne",
+  "meta": {
+    "status": "Draft",
+    "version": 1,
+    "createdAt": {
+      "$date": "2025-09-09T18:26:17.573Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-09T18:26:17.573Z"
+    }
+  },
+  "createdAt": {
+    "$date": "2025-09-09T18:26:17.585Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-16T15:15:03.770Z"
+  },
+  "__v": 0,
+  "inventoryData": {
+    "extraction": {
+      "processId": {
+        "$oid": "68c93cd0abc92dd76ed5b37d"
+      }
+    },
+    "_id": {
+      "$oid": "68c93cd0abc92dd76ed5b37c"
+    },
+    "endOfLife": {
+      "processId": {
+        "$oid": "68c97ef7bf3c37666bb089f4"
+      }
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68c075ea993cfd7382917346"
+  },
+  "projectName": "Hindustan uniliver",
+  "metalType": "al",
+  "goal": "To assess the environmental impact of producing 1 tonne of primary al ingot.",
+  "systemBoundary": "Cradle-to-Cradle",
+  "functionalUnit": "1 tonne",
+  "meta": {
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-09T18:46:02.869Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-09T18:46:02.869Z"
+    },
+    "version": 1,
+    "inventory": {
+      "extraction": 2
+    }
+  },
+  "createdAt": {
+    "$date": "2025-09-09T18:46:02.882Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-16T18:48:19.286Z"
+  },
+  "__v": 0,
+  "inventoryData": {
+    "extraction": {
+      "processId": {
+        "$oid": "68c9b0f326ceb2cf4e0d9854"
+      }
+    },
+    "_id": {
+      "$oid": "68c9b0f326ceb2cf4e0d9853"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68c075f7993cfd7382917352"
+  },
+  "projectName": "Matelastic",
+  "metalType": "al",
+  "goal": "To assess the environmental impact of producing 1 tonne of primary al ingot.",
+  "systemBoundary": "Cradle-to-Cradle",
+  "functionalUnit": "1 tonne",
+  "meta": {
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-09T18:46:15.134Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-09T18:46:15.134Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-09T18:46:15.138Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T18:46:15.138Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c0767d993cfd738291735e"
+  },
+  "projectName": "Europe based",
+  "metalType": "al",
+  "goal": "To assess the environmental impact of producing 1 tonne of primary al ingot.",
+  "systemBoundary": "Cradle-to-Cradle",
+  "functionalUnit": "1 tonne",
+  "meta": {
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-09T18:48:29.533Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-09T18:48:29.533Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-09T18:48:29.536Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T18:48:29.536Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c076925279a945472f2655"
+  },
+  "projectName": "Fixedmines",
+  "metalType": "al",
+  "goal": "To assess the environmental impact of producing 1 tonne of primary al ingot.",
+  "systemBoundary": "Cradle-to-Cradle",
+  "functionalUnit": "1 tonne",
+  "meta": {
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-09T18:48:50.153Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-09T18:48:50.154Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-09T18:48:50.158Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T18:48:50.220Z"
+  },
+  "__v": 0,
+  "inventoryData": {
+    "extraction": {
+      "processId": {
+        "$oid": "68c076925279a945472f2657"
+      },
+      "description": "al extraction process"
+    },
+    "transportToRefinery": {
+      "processId": {
+        "$oid": "68c076925279a945472f2658"
+      },
+      "description": "Transportation to refinery"
+    },
+    "refining": {
+      "processId": {
+        "$oid": "68c076925279a945472f265b"
+      },
+      "description": "al refining process"
+    },
+    "smelting": {
+      "processId": {
+        "$oid": "68c076925279a945472f265c"
+      },
+      "description": "al smelting process"
+    },
+    "transportToFactory": {
+      "processId": {
+        "$oid": "68c076925279a945472f2659"
+      },
+      "description": "Transportation to factory"
+    },
+    "casting": {
+      "processId": {
+        "$oid": "68c076925279a945472f265d"
+      },
+      "description": "al casting process"
+    },
+    "transportToConsumer": {
+      "processId": {
+        "$oid": "68c076925279a945472f265a"
+      },
+      "description": "Transportation to consumer"
+    },
+    "usagePhase": {
+      "processId": null,
+      "description": "al usage phase",
+      "usageDuration_years": 0,
+      "maintenanceFrequency_years": 0,
+      "energyConsumption_kWh_per_year": 0,
+      "maintenanceCost_USD_per_year": 0
+    },
+    "recycling": {
+      "processId": {
+        "$oid": "68c076925279a945472f265f"
+      },
+      "description": "al recycling process"
+    },
+    "endOfLife": {
+      "description": "al end of life",
+      "disposalMethod": "Recycling",
+      "disposalCost_USD_per_ton": 0
+    },
+    "_id": {
+      "$oid": "68c076925279a945472f2669"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68c0773d5279a945472f266b"
+  },
+  "projectName": "hehe",
+  "metalType": "al",
+  "goal": "To assess the environmental impact of producing 1 tonne of primary al ingot.",
+  "systemBoundary": "Cradle-to-Cradle",
+  "functionalUnit": "1 tonne",
+  "meta": {
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-09T18:51:41.561Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-09T18:51:41.561Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-09T18:51:41.563Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T18:51:41.643Z"
+  },
+  "__v": 0,
+  "inventoryData": {
+    "extraction": {
+      "processId": {
+        "$oid": "68c0773d5279a945472f266d"
+      },
+      "description": "al extraction process"
+    },
+    "transportToRefinery": {
+      "processId": {
+        "$oid": "68c0773d5279a945472f266e"
+      },
+      "description": "Transportation to refinery"
+    },
+    "refining": {
+      "processId": {
+        "$oid": "68c0773d5279a945472f2671"
+      },
+      "description": "al refining process"
+    },
+    "smelting": {
+      "processId": {
+        "$oid": "68c0773d5279a945472f2672"
+      },
+      "description": "al smelting process"
+    },
+    "transportToFactory": {
+      "processId": {
+        "$oid": "68c0773d5279a945472f266f"
+      },
+      "description": "Transportation to factory"
+    },
+    "casting": {
+      "processId": {
+        "$oid": "68c0773d5279a945472f2673"
+      },
+      "description": "al casting process"
+    },
+    "transportToConsumer": {
+      "processId": {
+        "$oid": "68c0773d5279a945472f2670"
+      },
+      "description": "Transportation to consumer"
+    },
+    "usagePhase": {
+      "processId": null,
+      "description": "al usage phase",
+      "usageDuration_years": 0,
+      "maintenanceFrequency_years": 0,
+      "energyConsumption_kWh_per_year": 0,
+      "maintenanceCost_USD_per_year": 0
+    },
+    "recycling": {
+      "processId": {
+        "$oid": "68c0773d5279a945472f2675"
+      },
+      "description": "al recycling process"
+    },
+    "endOfLife": {
+      "description": "al end of life",
+      "disposalMethod": "Recycling",
+      "disposalCost_USD_per_ton": 0
+    },
+    "_id": {
+      "$oid": "68c0773d5279a945472f267f"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68c07f63cf3cf1f4ec858c93"
+  },
+  "projectName": "hehe",
+  "metalType": "al",
+  "goal": "To assess the environmental impact of producing 1 tonne of primary al ingot.",
+  "systemBoundary": "Cradle-to-Cradle",
+  "functionalUnit": "1 tonne",
+  "meta": {
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-09T19:26:27.288Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-09T19:26:27.288Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-09T19:26:27.292Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-09T19:26:27.333Z"
+  },
+  "__v": 0,
+  "inventoryData": {
+    "extraction": {
+      "processId": {
+        "$oid": "68c07f63cf3cf1f4ec858c95"
+      },
+      "description": "al extraction process"
+    },
+    "transportToRefinery": {
+      "processId": {
+        "$oid": "68c07f63cf3cf1f4ec858c96"
+      },
+      "description": "Transportation to refinery"
+    },
+    "refining": {
+      "processId": {
+        "$oid": "68c07f63cf3cf1f4ec858c99"
+      },
+      "description": "al refining process"
+    },
+    "smelting": {
+      "processId": {
+        "$oid": "68c07f63cf3cf1f4ec858c9a"
+      },
+      "description": "al smelting process"
+    },
+    "transportToFactory": {
+      "processId": {
+        "$oid": "68c07f63cf3cf1f4ec858c97"
+      },
+      "description": "Transportation to factory"
+    },
+    "casting": {
+      "processId": {
+        "$oid": "68c07f63cf3cf1f4ec858c9b"
+      },
+      "description": "al casting process"
+    },
+    "transportToConsumer": {
+      "processId": {
+        "$oid": "68c07f63cf3cf1f4ec858c98"
+      },
+      "description": "Transportation to consumer"
+    },
+    "usagePhase": {
+      "processId": null,
+      "description": "al usage phase",
+      "usageDuration_years": 0,
+      "maintenanceFrequency_years": 0,
+      "energyConsumption_kWh_per_year": 0,
+      "maintenanceCost_USD_per_year": 0
+    },
+    "recycling": {
+      "processId": {
+        "$oid": "68c07f63cf3cf1f4ec858c9d"
+      },
+      "description": "al recycling process"
+    },
+    "endOfLife": {
+      "description": "al end of life",
+      "disposalMethod": "Recycling",
+      "disposalCost_USD_per_ton": 0
+    },
+    "_id": {
+      "$oid": "68c07f63cf3cf1f4ec858ca7"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "674a1b2c3d4e5f6789012345"
+  },
+  "projectName": "Primary Aluminum Ingot Production LCA",
+  "metalType": "Aluminium",
+  "goal": "To assess the environmental impact of producing 1 tonne of primary aluminum ingot.",
+  "systemBoundary": "Cradle-to-Gate",
+  "functionalUnit": "1 tonne",
+  "inventoryData": {
+    "extraction": {
+      "processId": {
+        "$oid": "674a1b2c3d4e5f6789012346"
+      },
+      "description": "Mining and extraction of bauxite ore."
+    },
+    "transportToRefinery": {
+      "processId": {
+        "$oid": "674a1b2c3d4e5f6789012347"
+      },
+      "description": "Transportation of bauxite to the refinery via ship."
+    },
+    "refining": {
+      "processId": {
+        "$oid": "674a1b2c3d4e5f6789012348"
+      },
+      "description": "Refining bauxite to produce alumina using the Bayer process."
+    },
+    "smelting": {
+      "processId": {
+        "$oid": "674a1b2c3d4e5f6789012349"
+      },
+      "description": "Smelting alumina to primary aluminum using the Hall-Héroult process."
+    },
+    "casting": {
+      "processId": {
+        "$oid": "674a1b2c3d4e5f678901234a"
+      },
+      "description": "Casting molten aluminum into ingots."
+    },
+    "recycling": {
+      "processId": {
+        "$oid": "674a1b2c3d4e5f678901234b"
+      },
+      "description": "Recycling aluminum scrap into secondary aluminum."
+    }
+  },
+  "results": {
+    "resultId": {
+      "$oid": "674a1b2c3d4e5f678901234c"
+    },
+    "description": "Circular economy metrics such as recycled content and recovery rates."
+  },
+  "generatedReport": {
+    "fileId": {
+      "$oid": "674a1b2c3d4e5f678901234e"
+    },
+    "fileType": "pdf",
+    "description": "Final LCA report document."
+  },
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "createdAt": "2025-09-07T18:30:00.000Z",
+    "lastUpdated": "2025-09-07T19:00:00.000Z",
+    "status": "In Progress",
+    "version": 1
+  }
+},
+{
+  "_id": {
+    "$oid": "68c30b5357406494ce63b8f9"
+  },
+  "projectName": "hehe",
+  "metalType": "al",
+  "goal": "To assess the environmental impact of producing 1 tonne of primary al ingot.",
+  "systemBoundary": "Cradle-to-Cradle",
+  "functionalUnit": "1 tonne",
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-11T17:48:03.488Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-11T17:48:03.489Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-11T17:48:03.497Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-11T17:48:03.628Z"
+  },
+  "__v": 0,
+  "inventoryData": {
+    "extraction": {
+      "processId": {
+        "$oid": "68c30b5357406494ce63b8fb"
+      },
+      "description": "al extraction process"
+    },
+    "transportToRefinery": {
+      "processId": {
+        "$oid": "68c30b5357406494ce63b8fc"
+      },
+      "description": "Transportation to refinery"
+    },
+    "refining": {
+      "processId": {
+        "$oid": "68c30b5357406494ce63b8ff"
+      },
+      "description": "al refining process"
+    },
+    "smelting": {
+      "processId": {
+        "$oid": "68c30b5357406494ce63b900"
+      },
+      "description": "al smelting process"
+    },
+    "transportToFactory": {
+      "processId": {
+        "$oid": "68c30b5357406494ce63b8fd"
+      },
+      "description": "Transportation to factory"
+    },
+    "casting": {
+      "processId": {
+        "$oid": "68c30b5357406494ce63b901"
+      },
+      "description": "al casting process"
+    },
+    "transportToConsumer": {
+      "processId": {
+        "$oid": "68c30b5357406494ce63b8fe"
+      },
+      "description": "Transportation to consumer"
+    },
+    "usagePhase": {
+      "processId": null,
+      "description": "al usage phase",
+      "usageDuration_years": 0,
+      "maintenanceFrequency_years": 0,
+      "energyConsumption_kWh_per_year": 0,
+      "maintenanceCost_USD_per_year": 0
+    },
+    "recycling": {
+      "processId": {
+        "$oid": "68c30b5357406494ce63b903"
+      },
+      "description": "al recycling process"
+    },
+    "endOfLife": {
+      "description": "al end of life",
+      "disposalMethod": "Recycling",
+      "disposalCost_USD_per_ton": 0
+    },
+    "_id": {
+      "$oid": "68c30b5357406494ce63b90d"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68c30d228b6d195f9c6b3f1c"
+  },
+  "projectName": "al 1",
+  "metalType": "Aluminium",
+  "goal": "To assess the environmental impact of producing 1 tone of primary Aluminium ingot.",
+  "systemBoundary": "Cradle-to-Cradle",
+  "functionalUnit": "1 tone",
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-11T17:55:46.259Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-11T17:55:46.259Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-11T17:55:46.265Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-11T17:55:46.312Z"
+  },
+  "__v": 0,
+  "inventoryData": {
+    "extraction": {
+      "processId": {
+        "$oid": "68c30d228b6d195f9c6b3f1e"
+      },
+      "description": "Aluminium extraction process"
+    },
+    "transportToRefinery": {
+      "processId": {
+        "$oid": "68c30d228b6d195f9c6b3f1f"
+      },
+      "description": "Transportation to refinery"
+    },
+    "refining": {
+      "processId": {
+        "$oid": "68c30d228b6d195f9c6b3f22"
+      },
+      "description": "Aluminium refining process"
+    },
+    "smelting": {
+      "processId": {
+        "$oid": "68c30d228b6d195f9c6b3f23"
+      },
+      "description": "Aluminium smelting process"
+    },
+    "transportToFactory": {
+      "processId": {
+        "$oid": "68c30d228b6d195f9c6b3f20"
+      },
+      "description": "Transportation to factory"
+    },
+    "casting": {
+      "processId": {
+        "$oid": "68c30d228b6d195f9c6b3f24"
+      },
+      "description": "Aluminium casting process"
+    },
+    "transportToConsumer": {
+      "processId": {
+        "$oid": "68c30d228b6d195f9c6b3f21"
+      },
+      "description": "Transportation to consumer"
+    },
+    "usagePhase": {
+      "processId": null,
+      "description": "Aluminium usage phase",
+      "usageDuration_years": 0,
+      "maintenanceFrequency_years": 0,
+      "energyConsumption_kWh_per_year": 0,
+      "maintenanceCost_USD_per_year": 0
+    },
+    "recycling": {
+      "processId": {
+        "$oid": "68c30d228b6d195f9c6b3f26"
+      },
+      "description": "Aluminium recycling process"
+    },
+    "endOfLife": {
+      "description": "Aluminium end of life",
+      "disposalMethod": "Recycling",
+      "disposalCost_USD_per_ton": 0
+    },
+    "_id": {
+      "$oid": "68c30d228b6d195f9c6b3f30"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68c30e4c8b6d195f9c6b3f32"
+  },
+  "projectName": "al",
+  "metalType": "Aluminium",
+  "goal": "To assess the environmental impact of producing 1 ton of primary Aluminium ingot.",
+  "systemBoundary": "Cradle-to-Gate",
+  "functionalUnit": "1 ton",
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-11T18:00:44.233Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-11T18:00:44.233Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-11T18:00:44.235Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-11T18:00:44.291Z"
+  },
+  "__v": 0,
+  "inventoryData": {
+    "extraction": {
+      "processId": {
+        "$oid": "68c30e4c8b6d195f9c6b3f34"
+      },
+      "description": "Aluminium extraction process"
+    },
+    "transportToRefinery": {
+      "processId": {
+        "$oid": "68c30e4c8b6d195f9c6b3f35"
+      },
+      "description": "Transportation to refinery"
+    },
+    "refining": {
+      "processId": {
+        "$oid": "68c30e4c8b6d195f9c6b3f38"
+      },
+      "description": "Aluminium refining process"
+    },
+    "smelting": {
+      "processId": {
+        "$oid": "68c30e4c8b6d195f9c6b3f39"
+      },
+      "description": "Aluminium smelting process"
+    },
+    "transportToFactory": {
+      "processId": {
+        "$oid": "68c30e4c8b6d195f9c6b3f36"
+      },
+      "description": "Transportation to factory"
+    },
+    "casting": {
+      "processId": {
+        "$oid": "68c30e4c8b6d195f9c6b3f3a"
+      },
+      "description": "Aluminium casting process"
+    },
+    "transportToConsumer": {
+      "processId": {
+        "$oid": "68c30e4c8b6d195f9c6b3f37"
+      },
+      "description": "Transportation to consumer"
+    },
+    "usagePhase": {
+      "processId": null,
+      "description": "Aluminium usage phase",
+      "usageDuration_years": 0,
+      "maintenanceFrequency_years": 0,
+      "energyConsumption_kWh_per_year": 0,
+      "maintenanceCost_USD_per_year": 0
+    },
+    "recycling": {
+      "processId": {
+        "$oid": "68c30e4c8b6d195f9c6b3f3c"
+      },
+      "description": "Aluminium recycling process"
+    },
+    "endOfLife": {
+      "description": "Aluminium end of life",
+      "disposalMethod": "Recycling",
+      "disposalCost_USD_per_ton": 0
+    },
+    "_id": {
+      "$oid": "68c30e4c8b6d195f9c6b3f46"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68c311178b6d195f9c6b3f4d"
+  },
+  "projectName": "al",
+  "metalType": "Aluminium",
+  "goal": "To assess the environmental impact of producing 1 kg of primary Aluminium ingot.",
+  "systemBoundary": "Cradle-to-Gate",
+  "functionalUnit": "1 kg",
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-11T18:12:39.913Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-11T18:12:39.913Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-11T18:12:39.915Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-11T18:12:39.974Z"
+  },
+  "__v": 0,
+  "inventoryData": {
+    "extraction": {
+      "processId": {
+        "$oid": "68c311178b6d195f9c6b3f4f"
+      },
+      "description": "Aluminium extraction process"
+    },
+    "transportToRefinery": {
+      "processId": {
+        "$oid": "68c311178b6d195f9c6b3f50"
+      },
+      "description": "Transportation to refinery"
+    },
+    "refining": {
+      "processId": {
+        "$oid": "68c311178b6d195f9c6b3f53"
+      },
+      "description": "Aluminium refining process"
+    },
+    "smelting": {
+      "processId": {
+        "$oid": "68c311178b6d195f9c6b3f54"
+      },
+      "description": "Aluminium smelting process"
+    },
+    "transportToFactory": {
+      "processId": {
+        "$oid": "68c311178b6d195f9c6b3f51"
+      },
+      "description": "Transportation to factory"
+    },
+    "casting": {
+      "processId": {
+        "$oid": "68c311178b6d195f9c6b3f55"
+      },
+      "description": "Aluminium casting process"
+    },
+    "transportToConsumer": {
+      "processId": {
+        "$oid": "68c311178b6d195f9c6b3f52"
+      },
+      "description": "Transportation to consumer"
+    },
+    "usagePhase": {
+      "processId": null,
+      "description": "Aluminium usage phase",
+      "usageDuration_years": 0,
+      "maintenanceFrequency_years": 0,
+      "energyConsumption_kWh_per_year": 0,
+      "maintenanceCost_USD_per_year": 0
+    },
+    "recycling": {
+      "processId": {
+        "$oid": "68c311178b6d195f9c6b3f57"
+      },
+      "description": "Aluminium recycling process"
+    },
+    "endOfLife": {
+      "description": "Aluminium end of life",
+      "disposalMethod": "Recycling",
+      "disposalCost_USD_per_ton": 0
+    },
+    "_id": {
+      "$oid": "68c311178b6d195f9c6b3f61"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68c3e162398625d97daa1878"
+  },
+  "projectName": "al",
+  "metalType": "Aluminium",
+  "goal": "To assess the environmental impact of producing 1 ton of primary Aluminium ingot.",
+  "systemBoundary": "Cradle-to-Cradle",
+  "functionalUnit": "1 ton",
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-12T09:01:22.384Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-12T09:01:22.385Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-12T09:01:22.411Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-12T09:01:22.610Z"
+  },
+  "__v": 0,
+  "inventoryData": {
+    "extraction": {
+      "processId": {
+        "$oid": "68c3e162398625d97daa187a"
+      },
+      "description": "Aluminium extraction process"
+    },
+    "transportToRefinery": {
+      "processId": {
+        "$oid": "68c3e162398625d97daa187b"
+      },
+      "description": "Transportation to refinery"
+    },
+    "refining": {
+      "processId": {
+        "$oid": "68c3e162398625d97daa187e"
+      },
+      "description": "Aluminium refining process"
+    },
+    "smelting": {
+      "processId": {
+        "$oid": "68c3e162398625d97daa187f"
+      },
+      "description": "Aluminium smelting process"
+    },
+    "transportToFactory": {
+      "processId": {
+        "$oid": "68c3e162398625d97daa187c"
+      },
+      "description": "Transportation to factory"
+    },
+    "casting": {
+      "processId": {
+        "$oid": "68c3e162398625d97daa1880"
+      },
+      "description": "Aluminium casting process"
+    },
+    "transportToConsumer": {
+      "processId": {
+        "$oid": "68c3e162398625d97daa187d"
+      },
+      "description": "Transportation to consumer"
+    },
+    "usagePhase": {
+      "processId": null,
+      "description": "Aluminium usage phase",
+      "usageDuration_years": 0,
+      "maintenanceFrequency_years": 0,
+      "energyConsumption_kWh_per_year": 0,
+      "maintenanceCost_USD_per_year": 0
+    },
+    "recycling": {
+      "processId": {
+        "$oid": "68c3e162398625d97daa1882"
+      },
+      "description": "Aluminium recycling process"
+    },
+    "endOfLife": {
+      "description": "Aluminium end of life",
+      "disposalMethod": "Recycling",
+      "disposalCost_USD_per_ton": 0
+    },
+    "_id": {
+      "$oid": "68c3e162398625d97daa188c"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68c921436e766f30e39219e4"
+  },
+  "projectName": "alu",
+  "metalType": "Aluminium",
+  "goal": "To assess the environmental impact of producing 1 ton of primary Aluminium ingot.",
+  "systemBoundary": "Cradle-to-Cradle",
+  "functionalUnit": "1 ton",
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-16T08:35:15.355Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-16T08:35:15.355Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-16T08:35:15.375Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-16T08:35:15.562Z"
+  },
+  "__v": 0,
+  "inventoryData": {
+    "extraction": {
+      "processId": {
+        "$oid": "68c921436e766f30e39219e6"
+      },
+      "description": "Aluminium extraction process"
+    },
+    "transportToRefinery": {
+      "processId": {
+        "$oid": "68c921436e766f30e39219e7"
+      },
+      "description": "Transportation to refinery"
+    },
+    "refining": {
+      "processId": {
+        "$oid": "68c921436e766f30e39219ea"
+      },
+      "description": "Aluminium refining process"
+    },
+    "smelting": {
+      "processId": {
+        "$oid": "68c921436e766f30e39219eb"
+      },
+      "description": "Aluminium smelting process"
+    },
+    "transportToFactory": {
+      "processId": {
+        "$oid": "68c921436e766f30e39219e8"
+      },
+      "description": "Transportation to factory"
+    },
+    "casting": {
+      "processId": {
+        "$oid": "68c921436e766f30e39219ec"
+      },
+      "description": "Aluminium casting process"
+    },
+    "transportToConsumer": {
+      "processId": {
+        "$oid": "68c921436e766f30e39219e9"
+      },
+      "description": "Transportation to consumer"
+    },
+    "usagePhase": {
+      "processId": null,
+      "description": "Aluminium usage phase",
+      "usageDuration_years": 0,
+      "maintenanceFrequency_years": 0,
+      "energyConsumption_kWh_per_year": 0,
+      "maintenanceCost_USD_per_year": 0
+    },
+    "recycling": {
+      "processId": {
+        "$oid": "68c921436e766f30e39219ee"
+      },
+      "description": "Aluminium recycling process"
+    },
+    "endOfLife": {
+      "description": "Aluminium end of life",
+      "disposalMethod": "Recycling",
+      "disposalCost_USD_per_ton": 0
+    },
+    "_id": {
+      "$oid": "68c921436e766f30e39219f8"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68c921ba6e766f30e3921a6c"
+  },
+  "projectName": "g",
+  "metalType": "Aluminium",
+  "goal": "To assess the environmental impact of producing 1 tonne of primary Aluminium ingot.",
+  "systemBoundary": "Cradle-to-Gate",
+  "functionalUnit": "1 tonne",
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-16T08:37:14.230Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-16T08:37:14.230Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-16T08:37:14.232Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-16T08:37:14.298Z"
+  },
+  "__v": 0,
+  "inventoryData": {
+    "extraction": {
+      "processId": {
+        "$oid": "68c921ba6e766f30e3921a6e"
+      },
+      "description": "Aluminium extraction process"
+    },
+    "transportToRefinery": {
+      "processId": {
+        "$oid": "68c921ba6e766f30e3921a6f"
+      },
+      "description": "Transportation to refinery"
+    },
+    "refining": {
+      "processId": {
+        "$oid": "68c921ba6e766f30e3921a72"
+      },
+      "description": "Aluminium refining process"
+    },
+    "smelting": {
+      "processId": {
+        "$oid": "68c921ba6e766f30e3921a73"
+      },
+      "description": "Aluminium smelting process"
+    },
+    "transportToFactory": {
+      "processId": {
+        "$oid": "68c921ba6e766f30e3921a70"
+      },
+      "description": "Transportation to factory"
+    },
+    "casting": {
+      "processId": {
+        "$oid": "68c921ba6e766f30e3921a74"
+      },
+      "description": "Aluminium casting process"
+    },
+    "transportToConsumer": {
+      "processId": {
+        "$oid": "68c921ba6e766f30e3921a71"
+      },
+      "description": "Transportation to consumer"
+    },
+    "usagePhase": {
+      "processId": null,
+      "description": "Aluminium usage phase",
+      "usageDuration_years": 0,
+      "maintenanceFrequency_years": 0,
+      "energyConsumption_kWh_per_year": 0,
+      "maintenanceCost_USD_per_year": 0
+    },
+    "recycling": {
+      "processId": {
+        "$oid": "68c921ba6e766f30e3921a76"
+      },
+      "description": "Aluminium recycling process"
+    },
+    "endOfLife": {
+      "description": "Aluminium end of life",
+      "disposalMethod": "Recycling",
+      "disposalCost_USD_per_ton": 0
+    },
+    "_id": {
+      "$oid": "68c921ba6e766f30e3921a80"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68c922e26e766f30e3921a82"
+  },
+  "projectName": "alu",
+  "metalType": "Copper",
+  "goal": "To assess the environmental impact of producing 1 tonne of primary Copper ingot.",
+  "systemBoundary": "Cradle-to-Gate",
+  "functionalUnit": "1 tonne",
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-16T08:42:10.061Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-16T08:42:10.061Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-16T08:42:10.063Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-16T08:42:10.114Z"
+  },
+  "__v": 0,
+  "inventoryData": {
+    "extraction": {
+      "processId": {
+        "$oid": "68c922e26e766f30e3921a84"
+      },
+      "description": "Copper extraction process"
+    },
+    "transportToRefinery": {
+      "processId": {
+        "$oid": "68c922e26e766f30e3921a85"
+      },
+      "description": "Transportation to refinery"
+    },
+    "refining": {
+      "processId": {
+        "$oid": "68c922e26e766f30e3921a88"
+      },
+      "description": "Copper refining process"
+    },
+    "smelting": {
+      "processId": {
+        "$oid": "68c922e26e766f30e3921a89"
+      },
+      "description": "Copper smelting process"
+    },
+    "transportToFactory": {
+      "processId": {
+        "$oid": "68c922e26e766f30e3921a86"
+      },
+      "description": "Transportation to factory"
+    },
+    "casting": {
+      "processId": {
+        "$oid": "68c922e26e766f30e3921a8a"
+      },
+      "description": "Copper casting process"
+    },
+    "transportToConsumer": {
+      "processId": {
+        "$oid": "68c922e26e766f30e3921a87"
+      },
+      "description": "Transportation to consumer"
+    },
+    "usagePhase": {
+      "processId": null,
+      "description": "Copper usage phase",
+      "usageDuration_years": 0,
+      "maintenanceFrequency_years": 0,
+      "energyConsumption_kWh_per_year": 0,
+      "maintenanceCost_USD_per_year": 0
+    },
+    "recycling": {
+      "processId": {
+        "$oid": "68c922e26e766f30e3921a8c"
+      },
+      "description": "Copper recycling process"
+    },
+    "endOfLife": {
+      "description": "Copper end of life",
+      "disposalMethod": "Recycling",
+      "disposalCost_USD_per_ton": 0
+    },
+    "_id": {
+      "$oid": "68c922e26e766f30e3921a96"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68c9497f81a995fa6b7d9722"
+  },
+  "projectName": "alumin",
+  "metalType": "Copper",
+  "goal": "To assess the environmental impact of producing 1 tonne of primary Copper ingot.",
+  "systemBoundary": "Cradle-to-Grave",
+  "functionalUnit": "1 tonne",
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-16T11:26:55.196Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-16T11:26:55.196Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-16T11:26:55.201Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-16T12:14:34.674Z"
+  },
+  "__v": 0,
+  "inventoryData": {
+    "extraction": {
+      "processId": {
+        "$oid": "68c9497f81a995fa6b7d9724"
+      },
+      "description": "Copper extraction process"
+    },
+    "transportToRefinery": {
+      "processId": {
+        "$oid": "68c9497f81a995fa6b7d9725"
+      },
+      "description": "Transportation to refinery"
+    },
+    "refining": {
+      "processId": {
+        "$oid": "68c9497f81a995fa6b7d9728"
+      },
+      "description": "Copper refining process"
+    },
+    "smelting": {
+      "processId": {
+        "$oid": "68c9497f81a995fa6b7d9729"
+      },
+      "description": "Copper smelting process"
+    },
+    "transportToFactory": {
+      "processId": {
+        "$oid": "68c9497f81a995fa6b7d9726"
+      },
+      "description": "Transportation to factory"
+    },
+    "casting": {
+      "processId": {
+        "$oid": "68c9497f81a995fa6b7d972a"
+      },
+      "description": "Copper casting process"
+    },
+    "transportToConsumer": {
+      "processId": {
+        "$oid": "68c9497f81a995fa6b7d9727"
+      },
+      "description": "Transportation to consumer"
+    },
+    "usagePhase": {
+      "processId": null,
+      "description": "Copper usage phase",
+      "usageDuration_years": 0,
+      "maintenanceFrequency_years": 0,
+      "energyConsumption_kWh_per_year": 0,
+      "maintenanceCost_USD_per_year": 0
+    },
+    "recycling": {
+      "processId": {
+        "$oid": "68c9497f81a995fa6b7d972c"
+      },
+      "description": "Copper recycling process"
+    },
+    "endOfLife": {
+      "processId": {
+        "$oid": "68c954aa13af5a9806396480"
+      }
+    },
+    "_id": {
+      "$oid": "68c9497f81a995fa6b7d9736"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68c97dada7503c150fc867fa"
+  },
+  "projectName": "alu",
+  "metalType": "Aluminium",
+  "goal": "To assess the environmental impact of producing 1 ton of primary Aluminium ingot.",
+  "systemBoundary": "Cradle-to-Gate",
+  "functionalUnit": "1 ton",
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-16T15:09:33.922Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-16T15:09:33.922Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-16T15:09:33.930Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-16T15:09:33.930Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97dd5bf3c37666bb089de"
+  },
+  "projectName": "alu",
+  "metalType": "Aluminium",
+  "goal": "To assess the environmental impact of producing 1 ton of primary Aluminium ingot.",
+  "systemBoundary": "Cradle-to-Gate",
+  "functionalUnit": "1 ton",
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-16T15:10:13.963Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-16T15:10:13.963Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-16T15:10:13.967Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-16T15:10:13.967Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97f9f7220ad7f0e0a0481"
+  },
+  "projectName": "aluminium",
+  "metalType": "Aluminium",
+  "goal": "To assess the environmental impact of producing 1ton of primary Aluminium ingot.",
+  "systemBoundary": "Cradle-to-Gate",
+  "functionalUnit": "1ton",
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-16T15:17:51.277Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-16T15:17:51.277Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-16T15:17:51.280Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-16T15:17:51.280Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98159f6066de4ef15f928"
+  },
+  "projectName": "aluminium",
+  "metalType": "Aluminium",
+  "goal": "To assess the environmental impact of producing 1ton of primary Aluminium ingot.",
+  "systemBoundary": "Cradle-to-Gate",
+  "functionalUnit": "1ton",
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-16T15:25:13.242Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-16T15:25:13.242Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-16T15:25:13.246Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-16T15:25:13.246Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c9822ef6066de4ef15f93b"
+  },
+  "projectName": "aluminium",
+  "metalType": "Aluminium",
+  "goal": "To assess the environmental impact of producing 1ton of primary Aluminium ingot.",
+  "systemBoundary": "Cradle-to-Gate",
+  "functionalUnit": "1ton",
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-16T15:28:46.765Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-16T15:28:46.765Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-16T15:28:46.766Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-16T15:28:46.766Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98251cd5a3e52aae7aca9"
+  },
+  "projectName": "aluminium",
+  "metalType": "Aluminium",
+  "goal": "To assess the environmental impact of producing 1ton of primary Aluminium ingot.",
+  "systemBoundary": "Cradle-to-Gate",
+  "functionalUnit": "1ton",
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-16T15:29:21.838Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-16T15:29:21.838Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-16T15:29:21.842Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-16T15:29:21.842Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98270677d42cc5697e720"
+  },
+  "projectName": "aluminium",
+  "metalType": "Aluminium",
+  "goal": "To assess the environmental impact of producing 1ton of primary Aluminium ingot.",
+  "systemBoundary": "Cradle-to-Gate",
+  "functionalUnit": "1ton",
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-16T15:29:52.763Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-16T15:29:52.763Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-16T15:29:52.767Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-16T15:29:52.792Z"
+  },
+  "__v": 0,
+  "inventoryData": {
+    "extraction": {
+      "processId": {
+        "$oid": "68c98270677d42cc5697e722"
+      },
+      "description": "Aluminium extraction process"
+    },
+    "transportToRefinery": {
+      "processId": {
+        "$oid": "68c98270677d42cc5697e723"
+      },
+      "description": "Transportation to refinery"
+    },
+    "refining": {
+      "processId": {
+        "$oid": "68c98270677d42cc5697e725"
+      },
+      "description": "Aluminium refining process"
+    },
+    "smelting": {
+      "processId": {
+        "$oid": "68c98270677d42cc5697e726"
+      },
+      "description": "Aluminium smelting process"
+    },
+    "casting": {
+      "processId": {
+        "$oid": "68c98270677d42cc5697e727"
+      },
+      "description": "Aluminium casting process"
+    },
+    "transportToConsumer": {
+      "processId": {
+        "$oid": "68c98270677d42cc5697e724"
+      },
+      "description": "Transportation to consumer"
+    },
+    "usagePhase": {
+      "processId": null,
+      "description": "Aluminium usage phase",
+      "usageDuration_years": 0,
+      "maintenanceFrequency_years": 0,
+      "energyConsumption_kWh_per_year": 0,
+      "maintenanceCost_USD_per_year": 0
+    },
+    "recycling": {
+      "processId": {
+        "$oid": "68c98270677d42cc5697e729"
+      },
+      "description": "Aluminium recycling process"
+    },
+    "endOfLife": {
+      "processId": {
+        "$oid": "68c98270677d42cc5697e72b"
+      },
+      "description": "Aluminium end of life"
+    },
+    "_id": {
+      "$oid": "68c98270677d42cc5697e734"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68c98313677d42cc5697e738"
+  },
+  "projectName": "final test",
+  "metalType": "Lead",
+  "goal": "To assess the environmental impact of producing 1ton of primary Lead ingot.",
+  "systemBoundary": "Cradle-to-Gate",
+  "functionalUnit": "1ton",
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "status": "Draft",
+    "createdAt": {
+      "$date": "2025-09-16T15:32:35.928Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-16T15:32:35.928Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-16T15:32:35.929Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-16T15:32:35.945Z"
+  },
+  "__v": 0,
+  "inventoryData": {
+    "extraction": {
+      "processId": {
+        "$oid": "68c98313677d42cc5697e73a"
+      },
+      "description": "Lead extraction process"
+    },
+    "transportToRefinery": {
+      "processId": {
+        "$oid": "68c98313677d42cc5697e73b"
+      },
+      "description": "Transportation to refinery"
+    },
+    "refining": {
+      "processId": {
+        "$oid": "68c98313677d42cc5697e73d"
+      },
+      "description": "Lead refining process"
+    },
+    "smelting": {
+      "processId": {
+        "$oid": "68c98313677d42cc5697e73e"
+      },
+      "description": "Lead smelting process"
+    },
+    "casting": {
+      "processId": {
+        "$oid": "68c98313677d42cc5697e73f"
+      },
+      "description": "Lead casting process"
+    },
+    "transportToConsumer": {
+      "processId": {
+        "$oid": "68c98313677d42cc5697e73c"
+      },
+      "description": "Transportation to consumer"
+    },
+    "usagePhase": {
+      "processId": null,
+      "description": "Lead usage phase",
+      "usageDuration_years": 0,
+      "maintenanceFrequency_years": 0,
+      "energyConsumption_kWh_per_year": 0,
+      "maintenanceCost_USD_per_year": 0
+    },
+    "recycling": {
+      "processId": {
+        "$oid": "68c98313677d42cc5697e741"
+      },
+      "description": "Lead recycling process"
+    },
+    "endOfLife": {
+      "processId": {
+        "$oid": "68c98313677d42cc5697e743"
+      },
+      "description": "Lead end of life"
+    },
+    "_id": {
+      "$oid": "68c98313677d42cc5697e74c"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "68c983c1aa0c5214033bc7ab"
+  },
+  "projectName": "testing",
+  "metalType": "Zinc",
+  "goal": "To assess the environmental impact of producing i kig of primary Zinc ingot.",
+  "systemBoundary": "Cradle-to-Gate",
+  "functionalUnit": "i kig",
+  "meta": {
+    "createdBy": {
+      "name": "JNARDDC"
+    },
+    "status": "Draft",
+    "inventory": {
+      "extraction": 2,
+      "Tport_to_refinary": 2,
+      "refining": 2,
+      "smelting": 2,
+      "Casting": 0,
+      "Tport_to_consumer": 0,
+      "usage_phase": 0,
+      "Recycle": 0,
+      "end_of_life": 0
+    },
+    "createdAt": {
+      "$date": "2025-09-16T15:35:29.572Z"
+    },
+    "lastUpdated": {
+      "$date": "2025-09-16T15:35:29.572Z"
+    },
+    "version": 1
+  },
+  "createdAt": {
+    "$date": "2025-09-16T15:35:29.575Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-16T16:42:37.205Z"
+  },
+  "__v": 0,
+  "inventoryData": {
+    "extraction": {
+      "processId": {
+        "$oid": "68c983c1aa0c5214033bc7ad"
+      },
+      "description": "Zinc extraction process"
+    },
+    "transportToRefinery": {
+      "processId": {
+        "$oid": "68c983c1aa0c5214033bc7ae"
+      },
+      "description": "Transportation to refinery"
+    },
+    "refining": {
+      "processId": {
+        "$oid": "68c983c1aa0c5214033bc7b0"
+      },
+      "description": "Zinc refining process"
+    },
+    "smelting": {
+      "processId": {
+        "$oid": "68c983c1aa0c5214033bc7b1"
+      },
+      "description": "Zinc smelting process"
+    },
+    "casting": {
+      "processId": {
+        "$oid": "68c983c1aa0c5214033bc7b2"
+      },
+      "description": "Zinc casting process"
+    },
+    "transportToConsumer": {
+      "processId": {
+        "$oid": "68c983c1aa0c5214033bc7af"
+      },
+      "description": "Transportation to consumer"
+    },
+    "usagePhase": {
+      "processId": null,
+      "description": "Zinc usage phase",
+      "usageDuration_years": 0,
+      "maintenanceFrequency_years": 0,
+      "energyConsumption_kWh_per_year": 0,
+      "maintenanceCost_USD_per_year": 0
+    },
+    "recycling": {
+      "processId": {
+        "$oid": "68c983c1aa0c5214033bc7b4"
+      },
+      "description": "Zinc recycling process"
+    },
+    "endOfLife": {
+      "processId": {
+        "$oid": "68c983c1aa0c5214033bc7b6"
+      },
+      "description": "Zinc end of life"
+    },
+    "_id": {
+      "$oid": "68c983c1aa0c5214033bc7bf"
+    }
+  }
+}]

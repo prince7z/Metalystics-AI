@@ -1,0 +1,874 @@
+[{
+  "_id": {
+    "$oid": "68c076925279a945472f265d"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c076925279a945472f265e"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c0773d5279a945472f2673"
+  },
+  "castingProcessType": "Sand Casting",
+  "materialInputQuantity_tons": 50,
+  "operatingTemperature_C": 1600,
+  "energyConsumption_kWh_per_ton": 1200,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c15d7b0a682eca5d70b153"
+      }
+    }
+  ],
+  "moldMaterial": [
+    {
+      "type": "Silica Sand",
+      "amount_kg": 0,
+      "_id": {
+        "$oid": "68c15d7b0a682eca5d70b154"
+      }
+    }
+  ],
+  "coolingMethod": "Water Cooling",
+  "waterConsumption_liters_per_ton": 3000,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c15d7b0a682eca5d70b155"
+    }
+  },
+  "defectRate_percent": 2.5,
+  "scrapRecycled_percent": 70,
+  "scrapQualityLevel": "Closed Loop",
+  "packagingType": "Palletized",
+  "finalProductYield_percent": 92,
+  "materialLoss_percent": 5,
+  "wasteGenerated_kg_per_ton": 150,
+  "operatingCost_per_ton": 250,
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "68c07f63cf3cf1f4ec858c9b"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c07f63cf3cf1f4ec858c9c"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674a1b2c3d4e5f678901234a"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 1,
+  "operatingTemperature_C": 750,
+  "energyConsumption_kWh_per_ton": 120,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 60
+    },
+    {
+      "type": "Natural Gas",
+      "percent": 40
+    }
+  ],
+  "moldMaterial": [
+    {
+      "type": "Sand",
+      "amount_kg": 50
+    },
+    {
+      "type": "Graphite",
+      "amount_kg": 10
+    }
+  ],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 300,
+  "emissions": {
+    "CO2_kg_per_ton": 150,
+    "NOx_kg_per_ton": 5,
+    "SOx_kg_per_ton": 3
+  },
+  "defectRate_percent": 2.5,
+  "scrapRecycled_percent": 80,
+  "scrapQualityLevel": "Closed-loop",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 95,
+  "materialLoss_percent": 5,
+  "wasteGenerated_kg_per_ton": 20,
+  "operatingCost_per_ton": 450
+},
+{
+  "_id": {
+    "$oid": "68c30b5357406494ce63b901"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c30b5357406494ce63b902"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30d228b6d195f9c6b3f24"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c30d228b6d195f9c6b3f25"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30e4c8b6d195f9c6b3f3a"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c30e4c8b6d195f9c6b3f3b"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c311178b6d195f9c6b3f55"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c311178b6d195f9c6b3f56"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c3e162398625d97daa1880"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c3e162398625d97daa1881"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c921436e766f30e39219ec"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c921436e766f30e39219ed"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c921ba6e766f30e3921a74"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c921ba6e766f30e3921a75"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c922e26e766f30e3921a8a"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c922e26e766f30e3921a8b"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c9497f81a995fa6b7d972a"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c9497f81a995fa6b7d972b"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c96ff5ab7436e6cd78edab"
+  },
+  "castingProcessType": "sand_casting",
+  "materialInputQuantity_tons": 100,
+  "operatingTemperature_C": 50,
+  "energyConsumption_kWh_per_ton": 1000,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c96ff5ab7436e6cd78edac"
+      }
+    }
+  ],
+  "moldMaterial": [
+    {
+      "type": "metal",
+      "amount_kg": 0,
+      "_id": {
+        "$oid": "68c96ff5ab7436e6cd78edad"
+      }
+    }
+  ],
+  "coolingMethod": "air_cooling",
+  "waterConsumption_liters_per_ton": 1000,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c96ff5ab7436e6cd78edae"
+    }
+  },
+  "defectRate_percent": 2.5,
+  "scrapRecycled_percent": 80,
+  "scrapQualityLevel": "Closed Loop",
+  "packagingType": "bulk",
+  "finalProductYield_percent": 95,
+  "materialLoss_percent": 5,
+  "wasteGenerated_kg_per_ton": 20,
+  "operatingCost_per_ton": 450,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c972a1c072a876b07a7fe7"
+  },
+  "castingProcessType": "Sand Casting",
+  "materialInputQuantity_tons": 1000,
+  "operatingTemperature_C": 50,
+  "energyConsumption_kWh_per_ton": 1000,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c972a1c072a876b07a7fe8"
+      }
+    }
+  ],
+  "moldMaterial": [
+    {
+      "type": "sand",
+      "amount_kg": 100,
+      "_id": {
+        "$oid": "68c972a1c072a876b07a7fe9"
+      }
+    }
+  ],
+  "coolingMethod": "Air Cooling",
+  "waterConsumption_liters_per_ton": 500,
+  "emissions": {
+    "CO2_kg_per_ton": 100,
+    "NOx_kg_per_ton": 5,
+    "SOx_kg_per_ton": 3,
+    "_id": {
+      "$oid": "68c972a1c072a876b07a7fea"
+    }
+  },
+  "defectRate_percent": 2,
+  "scrapRecycled_percent": 80,
+  "scrapQualityLevel": "Closed-loop",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 95,
+  "materialLoss_percent": 3,
+  "wasteGenerated_kg_per_ton": 50,
+  "operatingCost_per_ton": 150,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c972bdc072a876b07a7fee"
+  },
+  "castingProcessType": "Sand Casting",
+  "materialInputQuantity_tons": 100,
+  "operatingTemperature_C": 50,
+  "energyConsumption_kWh_per_ton": 100,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c972bdc072a876b07a7fef"
+      }
+    }
+  ],
+  "moldMaterial": [
+    {
+      "type": "Sand",
+      "amount_kg": 100,
+      "_id": {
+        "$oid": "68c972bdc072a876b07a7ff0"
+      }
+    }
+  ],
+  "coolingMethod": "Air Cooling",
+  "waterConsumption_liters_per_ton": 500,
+  "emissions": {
+    "CO2_kg_per_ton": 100,
+    "NOx_kg_per_ton": 5,
+    "SOx_kg_per_ton": 3,
+    "_id": {
+      "$oid": "68c972bdc072a876b07a7ff1"
+    }
+  },
+  "defectRate_percent": 2,
+  "scrapRecycled_percent": 80,
+  "scrapQualityLevel": "Closed-loop",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 95,
+  "materialLoss_percent": 3,
+  "wasteGenerated_kg_per_ton": 50,
+  "operatingCost_per_ton": 150,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c973cf77601c52e51021b8"
+  },
+  "castingProcessType": "Sand Casting",
+  "materialInputQuantity_tons": 1000,
+  "operatingTemperature_C": 50,
+  "energyConsumption_kWh_per_ton": 50,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c973cf77601c52e51021b9"
+      }
+    }
+  ],
+  "moldMaterial": [
+    {
+      "type": "Sand",
+      "amount_kg": 100,
+      "_id": {
+        "$oid": "68c973cf77601c52e51021ba"
+      }
+    }
+  ],
+  "coolingMethod": "Air Cooling",
+  "waterConsumption_liters_per_ton": 500,
+  "emissions": {
+    "CO2_kg_per_ton": 100,
+    "NOx_kg_per_ton": 5,
+    "SOx_kg_per_ton": 3,
+    "_id": {
+      "$oid": "68c973cf77601c52e51021bb"
+    }
+  },
+  "defectRate_percent": 2,
+  "scrapRecycled_percent": 80,
+  "scrapQualityLevel": "Closed-loop",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 95,
+  "materialLoss_percent": 3,
+  "wasteGenerated_kg_per_ton": 50,
+  "operatingCost_per_ton": 150,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97dada7503c150fc86801"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c97dada7503c150fc86802"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97dd5bf3c37666bb089e5"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c97dd5bf3c37666bb089e6"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97f9f7220ad7f0e0a0488"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c97f9f7220ad7f0e0a0489"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98159f6066de4ef15f92f"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c98159f6066de4ef15f930"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c9822ef6066de4ef15f942"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c9822ef6066de4ef15f943"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98251cd5a3e52aae7acb0"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c98251cd5a3e52aae7acb1"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98270677d42cc5697e727"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c98270677d42cc5697e728"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98313677d42cc5697e73f"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c98313677d42cc5697e740"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c983c1aa0c5214033bc7b2"
+  },
+  "castingProcessType": "Die Casting",
+  "materialInputQuantity_tons": 0,
+  "operatingTemperature_C": 0,
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "moldMaterial": [],
+  "coolingMethod": "Water Cooled",
+  "waterConsumption_liters_per_ton": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c983c1aa0c5214033bc7b3"
+    }
+  },
+  "defectRate_percent": 0,
+  "scrapRecycled_percent": 0,
+  "scrapQualityLevel": "None",
+  "packagingType": "Bulk",
+  "finalProductYield_percent": 0,
+  "materialLoss_percent": 0,
+  "wasteGenerated_kg_per_ton": 0,
+  "operatingCost_per_ton": 0,
+  "__v": 0
+}]

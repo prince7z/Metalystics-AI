@@ -1,0 +1,428 @@
+[{
+  "_id": {
+    "$oid": "68c076925279a945472f2657"
+  },
+  "metal": "al",
+  "materialGrade": "High Grade",
+  "sourceType": "Virgin",
+  "region": "North America",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 0,
+  "waterUsage_L_perTon": 0,
+  "wasteGenerated_kg_perTon": 0,
+  "costOfExtraction_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c0773d5279a945472f266d"
+  },
+  "metal": "al",
+  "materialGrade": "High-grade Bauxite",
+  "sourceType": "mines",
+  "region": "australia",
+  "method": "Open-pit Mining",
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c30f5a8b6d195f9c6b3f4b"
+      }
+    }
+  ],
+  "totalEnergyConsumption_kWh_perTon": 1200,
+  "waterUsage_L_perTon": 5000,
+  "wasteGenerated_kg_perTon": 300,
+  "costOfExtraction_USD_perTon": 50,
+  "__v": 4
+},
+{
+  "_id": {
+    "$oid": "68c07f63cf3cf1f4ec858c95"
+  },
+  "metal": "al",
+  "materialGrade": "High Grade",
+  "sourceType": "Virgin",
+  "region": "North America",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 0,
+  "waterUsage_L_perTon": 0,
+  "wasteGenerated_kg_perTon": 0,
+  "costOfExtraction_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674a1b2c3d4e5f6789012346"
+  },
+  "metal": "Aluminium",
+  "materialGrade": "High-grade Bauxite",
+  "sourceType": "Virgin",
+  "region": "Australia",
+  "method": "Open-pit Mining",
+  "energySource": [
+    {
+      "type": "Coal",
+      "percent": 50
+    },
+    {
+      "type": "Natural Gas",
+      "percent": 20
+    },
+    {
+      "type": "Renewable",
+      "percent": 30
+    }
+  ],
+  "totalEnergyConsumption_kWh_perTon": 1200,
+  "waterUsage_L_perTon": 500,
+  "wasteGenerated_kg_perTon": 200,
+  "costOfExtraction_USD_perTon": 75.5
+},
+{
+  "_id": {
+    "$oid": "68c30b5357406494ce63b8fb"
+  },
+  "metal": "al",
+  "materialGrade": "High-grade Bauxite",
+  "sourceType": "recycle",
+  "region": "australia",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 1200,
+  "waterUsage_L_perTon": 5000,
+  "wasteGenerated_kg_perTon": 300,
+  "costOfExtraction_USD_perTon": 50,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30d228b6d195f9c6b3f1e"
+  },
+  "metal": "Aluminium",
+  "materialGrade": "High Grade",
+  "sourceType": "Virgin",
+  "region": "North America",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 0,
+  "waterUsage_L_perTon": 0,
+  "wasteGenerated_kg_perTon": 0,
+  "costOfExtraction_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30e4c8b6d195f9c6b3f34"
+  },
+  "metal": "Aluminium",
+  "materialGrade": "High Grade",
+  "sourceType": "Virgin",
+  "region": "North America",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 0,
+  "waterUsage_L_perTon": 0,
+  "wasteGenerated_kg_perTon": 0,
+  "costOfExtraction_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c311178b6d195f9c6b3f4f"
+  },
+  "metal": "Aluminium",
+  "materialGrade": "High Grade",
+  "sourceType": "Virgin",
+  "region": "North America",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 0,
+  "waterUsage_L_perTon": 0,
+  "wasteGenerated_kg_perTon": 0,
+  "costOfExtraction_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c3e162398625d97daa187a"
+  },
+  "metal": "Aluminium",
+  "materialGrade": "High Grade",
+  "sourceType": "Virgin",
+  "region": "North America",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 0,
+  "waterUsage_L_perTon": 0,
+  "wasteGenerated_kg_perTon": 0,
+  "costOfExtraction_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c921436e766f30e39219e6"
+  },
+  "metal": "Aluminium",
+  "materialGrade": "High Grade",
+  "sourceType": "Virgin",
+  "region": "North America",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 0,
+  "waterUsage_L_perTon": 0,
+  "wasteGenerated_kg_perTon": 0,
+  "costOfExtraction_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c921ba6e766f30e3921a6e"
+  },
+  "metal": "Aluminium",
+  "materialGrade": "High Grade",
+  "sourceType": "Virgin",
+  "region": "North America",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 0,
+  "waterUsage_L_perTon": 0,
+  "wasteGenerated_kg_perTon": 0,
+  "costOfExtraction_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c922e26e766f30e3921a84"
+  },
+  "metal": "Copper",
+  "materialGrade": "High Grade",
+  "sourceType": "Virgin",
+  "region": "North America",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 0,
+  "waterUsage_L_perTon": 0,
+  "wasteGenerated_kg_perTon": 0,
+  "costOfExtraction_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c93cd0abc92dd76ed5b37d"
+  },
+  "metal": "gd",
+  "materialGrade": "High-grade Bauxite",
+  "sourceType": "mines",
+  "region": "india",
+  "method": "Open-pit Mining",
+  "energySource": [
+    {
+      "type": "Coal",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c93d9e745b5e8e83a76c50"
+      }
+    }
+  ],
+  "totalEnergyConsumption_kWh_perTon": 1200,
+  "waterUsage_L_perTon": 5000,
+  "wasteGenerated_kg_perTon": 300,
+  "costOfExtraction_USD_perTon": 50,
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "68c9497f81a995fa6b7d9724"
+  },
+  "metal": "Copper",
+  "materialGrade": "High Grade",
+  "sourceType": "Virgin",
+  "region": "North America",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 0,
+  "waterUsage_L_perTon": 0,
+  "wasteGenerated_kg_perTon": 0,
+  "costOfExtraction_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97dada7503c150fc867fc"
+  },
+  "metal": "Aluminium",
+  "materialGrade": "High Grade",
+  "sourceType": "Virgin",
+  "region": "North America",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 0,
+  "waterUsage_L_perTon": 0,
+  "wasteGenerated_kg_perTon": 0,
+  "costOfExtraction_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97dd5bf3c37666bb089e0"
+  },
+  "metal": "Aluminium",
+  "materialGrade": "High Grade",
+  "sourceType": "Virgin",
+  "region": "North America",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 0,
+  "waterUsage_L_perTon": 0,
+  "wasteGenerated_kg_perTon": 0,
+  "costOfExtraction_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97f9f7220ad7f0e0a0483"
+  },
+  "metal": "Aluminium",
+  "materialGrade": "High Grade",
+  "sourceType": "Virgin",
+  "region": "North America",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 0,
+  "waterUsage_L_perTon": 0,
+  "wasteGenerated_kg_perTon": 0,
+  "costOfExtraction_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98159f6066de4ef15f92a"
+  },
+  "metal": "Aluminium",
+  "materialGrade": "High Grade",
+  "sourceType": "Virgin",
+  "region": "North America",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 0,
+  "waterUsage_L_perTon": 0,
+  "wasteGenerated_kg_perTon": 0,
+  "costOfExtraction_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c9822ef6066de4ef15f93d"
+  },
+  "metal": "Aluminium",
+  "materialGrade": "High Grade",
+  "sourceType": "Virgin",
+  "region": "North America",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 0,
+  "waterUsage_L_perTon": 0,
+  "wasteGenerated_kg_perTon": 0,
+  "costOfExtraction_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98251cd5a3e52aae7acab"
+  },
+  "metal": "Aluminium",
+  "materialGrade": "High Grade",
+  "sourceType": "Virgin",
+  "region": "North America",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 0,
+  "waterUsage_L_perTon": 0,
+  "wasteGenerated_kg_perTon": 0,
+  "costOfExtraction_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98270677d42cc5697e722"
+  },
+  "metal": "Aluminium",
+  "materialGrade": "High Grade",
+  "sourceType": "Virgin",
+  "region": "North America",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 0,
+  "waterUsage_L_perTon": 0,
+  "wasteGenerated_kg_perTon": 0,
+  "costOfExtraction_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98313677d42cc5697e73a"
+  },
+  "metal": "Lead",
+  "materialGrade": "High Grade",
+  "sourceType": "Virgin",
+  "region": "North America",
+  "method": "Open-pit Mining",
+  "energySource": [],
+  "totalEnergyConsumption_kWh_perTon": 0,
+  "waterUsage_L_perTon": 0,
+  "wasteGenerated_kg_perTon": 0,
+  "costOfExtraction_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c983c1aa0c5214033bc7ad"
+  },
+  "metal": "zinc",
+  "materialGrade": "high",
+  "sourceType": "mines",
+  "region": "australia",
+  "method": "Open-pit Mining",
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c990c5d86949ac7d07ec26"
+      }
+    }
+  ],
+  "totalEnergyConsumption_kWh_perTon": 1200,
+  "waterUsage_L_perTon": 5000,
+  "wasteGenerated_kg_perTon": 300,
+  "costOfExtraction_USD_perTon": 50,
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "68c9b0f326ceb2cf4e0d9854"
+  },
+  "metal": "aluminium",
+  "materialGrade": "high",
+  "sourceType": "mines",
+  "region": "australia",
+  "method": "Open-pit Mining",
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c9b0f326ceb2cf4e0d9855"
+      }
+    }
+  ],
+  "totalEnergyConsumption_kWh_perTon": 100,
+  "waterUsage_L_perTon": 5000,
+  "wasteGenerated_kg_perTon": 300,
+  "costOfExtraction_USD_perTon": 50,
+  "__v": 0
+}]

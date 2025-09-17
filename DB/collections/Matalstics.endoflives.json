@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "68c954aa13af5a9806396480"
+  },
+  "recyclingRate": 50,
+  "disposalMethod": "Landfill",
+  "Energy_used_kWh_perTon": 1222,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c975664dcfa0c8dbaf7a65"
+  },
+  "recyclingRate": 75,
+  "disposalMethod": "Recycling",
+  "Energy_used_kWh_perTon": 1000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97ef7bf3c37666bb089f4"
+  },
+  "recyclingRate": 20,
+  "disposalMethod": "Recycling",
+  "Energy_used_kWh_perTon": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98270677d42cc5697e72b"
+  },
+  "disposalMethod": "Recycling",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98313677d42cc5697e743"
+  },
+  "disposalMethod": "Recycling",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c983c1aa0c5214033bc7b6"
+  },
+  "disposalMethod": "Recycling",
+  "__v": 0
+}]

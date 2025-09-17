@@ -1,0 +1,955 @@
+[{
+  "_id": {
+    "$oid": "68c076925279a945472f265f"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c076925279a945472f2660"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c0773d5279a945472f2675"
+  },
+  "recyclingProcessType": "Mechanical Recycling",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 50,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 800,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c15e3da2df191fa0ebbd6a"
+      }
+    }
+  ],
+  "waterConsumption_liters_per_ton": 1500,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 85,
+  "materialLoss_percent": 5,
+  "outputQualityLevel": "Closed Loop",
+  "finalOutput_tons": 42.5,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c15e3da2df191fa0ebbd6b"
+    }
+  },
+  "slagGenerated_kg_per_ton": 20,
+  "hazardousWaste_kg_per_ton": 5,
+  "packagingType": "Palletized",
+  "costOfRecycling_per_ton": 200,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "68c07f63cf3cf1f4ec858c9d"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c07f63cf3cf1f4ec858c9e"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674a1b2c3d4e5f678901234b"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [
+    {
+      "type": "Post-Consumer Scrap",
+      "percent": 60
+    },
+    {
+      "type": "Industrial Scrap",
+      "percent": 40
+    }
+  ],
+  "inputQuantity_tons": 1,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 150,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 50
+    },
+    {
+      "type": "Natural Gas",
+      "percent": 30
+    },
+    {
+      "type": "Renewable",
+      "percent": 20
+    }
+  ],
+  "waterConsumption_liters_per_ton": 250,
+  "chemicalUsed_kg_per_ton": [
+    {
+      "name": "Degreaser",
+      "amount": 2
+    },
+    {
+      "name": "Flux Agent",
+      "amount": 1
+    }
+  ],
+  "materialRecoveryRate_percent": 92,
+  "materialLoss_percent": 8,
+  "outputQualityLevel": "Closed-loop",
+  "finalOutput_tons": 0.92,
+  "emissions": {
+    "CO2_kg_per_ton": 180,
+    "NOx_kg_per_ton": 4,
+    "SOx_kg_per_ton": 2
+  },
+  "slagGenerated_kg_per_ton": 25,
+  "hazardousWaste_kg_per_ton": 5,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 320,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 150,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0.4,
+    "materialLossDuringTransport_percent": 0.5,
+    "costPerTrip": 5000
+  }
+},
+{
+  "_id": {
+    "$oid": "68c30b5357406494ce63b903"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c30b5357406494ce63b904"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30d228b6d195f9c6b3f26"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c30d228b6d195f9c6b3f27"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30e4c8b6d195f9c6b3f3c"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c30e4c8b6d195f9c6b3f3d"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c311178b6d195f9c6b3f57"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c311178b6d195f9c6b3f58"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c3e162398625d97daa1882"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c3e162398625d97daa1883"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c921436e766f30e39219ee"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c921436e766f30e39219ef"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c921ba6e766f30e3921a76"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c921ba6e766f30e3921a77"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c922e26e766f30e3921a8c"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c922e26e766f30e3921a8d"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c9497f81a995fa6b7d972c"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c9497f81a995fa6b7d972d"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c975984dcfa0c8dbaf7a69"
+  },
+  "recyclingProcessType": "mechanical_recycling",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 100,
+  "sortingMethod": "manual_sorting",
+  "cleaningProcess": "washing",
+  "energyConsumption_kWh_per_ton": 100,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c975984dcfa0c8dbaf7a6a"
+      }
+    }
+  ],
+  "waterConsumption_liters_per_ton": 9998,
+  "chemicalUsed_kg_per_ton": [
+    {
+      "name": "Cryolite",
+      "amount": 0.5,
+      "_id": {
+        "$oid": "68c975984dcfa0c8dbaf7a6b"
+      }
+    },
+    {
+      "name": "Sodium Carbonate",
+      "amount": 1.2,
+      "_id": {
+        "$oid": "68c975984dcfa0c8dbaf7a6c"
+      }
+    }
+  ],
+  "materialRecoveryRate_percent": 90,
+  "materialLoss_percent": 8,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0.9,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c975984dcfa0c8dbaf7a6d"
+    }
+  },
+  "slagGenerated_kg_per_ton": 25,
+  "hazardousWaste_kg_per_ton": 5,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 320,
+  "transportationForRecycling": {
+    "mode": "truck",
+    "distance_km": 100,
+    "fuelType": "gasoline",
+    "fuelConsumption_liters_per_km": 100,
+    "materialLossDuringTransport_percent": 1,
+    "costPerTrip": 200
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97dada7503c150fc86803"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c97dada7503c150fc86804"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97dd5bf3c37666bb089e7"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c97dd5bf3c37666bb089e8"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97f9f7220ad7f0e0a048a"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c97f9f7220ad7f0e0a048b"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98159f6066de4ef15f931"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c98159f6066de4ef15f932"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c9822ef6066de4ef15f944"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c9822ef6066de4ef15f945"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98251cd5a3e52aae7acb2"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c98251cd5a3e52aae7acb3"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98270677d42cc5697e729"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c98270677d42cc5697e72a"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98313677d42cc5697e741"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c98313677d42cc5697e742"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c983c1aa0c5214033bc7b4"
+  },
+  "recyclingProcessType": "Secondary Smelting",
+  "inputMaterialType": [],
+  "inputQuantity_tons": 0,
+  "sortingMethod": "Magnetic Separation",
+  "cleaningProcess": "Chemical Cleaning",
+  "energyConsumption_kWh_per_ton": 0,
+  "energySource": [],
+  "waterConsumption_liters_per_ton": 0,
+  "chemicalUsed_kg_per_ton": [],
+  "materialRecoveryRate_percent": 0,
+  "materialLoss_percent": 0,
+  "outputQualityLevel": "None",
+  "finalOutput_tons": 0,
+  "emissions": {
+    "CO2_kg_per_ton": 0,
+    "NOx_kg_per_ton": 0,
+    "SOx_kg_per_ton": 0,
+    "_id": {
+      "$oid": "68c983c1aa0c5214033bc7b5"
+    }
+  },
+  "slagGenerated_kg_per_ton": 0,
+  "hazardousWaste_kg_per_ton": 0,
+  "packagingType": "Bulk",
+  "costOfRecycling_per_ton": 0,
+  "transportationForRecycling": {
+    "mode": "Truck",
+    "distance_km": 0,
+    "fuelType": "Diesel",
+    "fuelConsumption_liters_per_km": 0,
+    "materialLossDuringTransport_percent": 0,
+    "costPerTrip": 0
+  },
+  "__v": 0
+}]

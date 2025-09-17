@@ -1,0 +1,839 @@
+[{
+  "_id": {
+    "$oid": "68c076925279a945472f2658"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c076925279a945472f2659"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c076925279a945472f265a"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c0773d5279a945472f266e"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 350,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0.25,
+  "loadCapacityUtilization_percent": 80,
+  "averageVehicleLoad_tons": 20,
+  "packagingType": "Wooden Crates",
+  "materialLossDuringTransport_percent": 1.5,
+  "costOfTransport_perTrip_USD": 500,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c0773d5279a945472f266f"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c0773d5279a945472f2670"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c07f63cf3cf1f4ec858c96"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c07f63cf3cf1f4ec858c97"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c07f63cf3cf1f4ec858c98"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674a1b2c3d4e5f6789012347"
+  },
+  "mode": "Ship",
+  "distanceTravelled_km": 2500,
+  "fuelType": "Heavy Fuel Oil",
+  "fuelConsumption_perKm": 0.45,
+  "loadCapacityUtilization_percent": 90,
+  "averageVehicleLoad_tons": 25000,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 1,
+  "costOfTransport_perTrip_USD": 15000
+},
+{
+  "_id": {
+    "$oid": "68c30b5357406494ce63b8fc"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30b5357406494ce63b8fd"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30b5357406494ce63b8fe"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30d228b6d195f9c6b3f1f"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30d228b6d195f9c6b3f20"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30d228b6d195f9c6b3f21"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30e4c8b6d195f9c6b3f35"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30e4c8b6d195f9c6b3f36"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30e4c8b6d195f9c6b3f37"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c311178b6d195f9c6b3f50"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c311178b6d195f9c6b3f51"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c311178b6d195f9c6b3f52"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c3e162398625d97daa187b"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c3e162398625d97daa187c"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c3e162398625d97daa187d"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c921436e766f30e39219e7"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c921436e766f30e39219e8"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c921436e766f30e39219e9"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c921ba6e766f30e3921a6f"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c921ba6e766f30e3921a70"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c921ba6e766f30e3921a71"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c922e26e766f30e3921a85"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c922e26e766f30e3921a86"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c922e26e766f30e3921a87"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c9497f81a995fa6b7d9725"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c9497f81a995fa6b7d9726"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c9497f81a995fa6b7d9727"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c96326d2c5c7932762c4a4"
+  },
+  "mode": "truck",
+  "distanceTravelled_km": 500,
+  "fuelType": "diesel",
+  "fuelConsumption_perKm": 1000,
+  "loadCapacityUtilization_percent": 80,
+  "averageVehicleLoad_tons": 20,
+  "packagingType": "bulk",
+  "materialLossDuringTransport_percent": 1,
+  "costOfTransport_perTrip_USD": 500,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97dada7503c150fc867fd"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97dada7503c150fc867fe"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97dd5bf3c37666bb089e1"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97dd5bf3c37666bb089e2"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97f9f7220ad7f0e0a0484"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97f9f7220ad7f0e0a0485"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98159f6066de4ef15f92b"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98159f6066de4ef15f92c"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c9822ef6066de4ef15f93e"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c9822ef6066de4ef15f93f"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98251cd5a3e52aae7acac"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98251cd5a3e52aae7acad"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98270677d42cc5697e723"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98270677d42cc5697e724"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98313677d42cc5697e73b"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98313677d42cc5697e73c"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c983c1aa0c5214033bc7ae"
+  },
+  "mode": "truck",
+  "distanceTravelled_km": 1000,
+  "fuelType": "gasoline",
+  "fuelConsumption_perKm": 1000,
+  "loadCapacityUtilization_percent": 80,
+  "averageVehicleLoad_tons": 20,
+  "packagingType": "bulk",
+  "materialLossDuringTransport_percent": 1,
+  "costOfTransport_perTrip_USD": 500,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c983c1aa0c5214033bc7af"
+  },
+  "mode": "Truck",
+  "distanceTravelled_km": 0,
+  "fuelType": "Diesel",
+  "fuelConsumption_perKm": 0,
+  "loadCapacityUtilization_percent": 0,
+  "averageVehicleLoad_tons": 0,
+  "packagingType": "Bulk",
+  "materialLossDuringTransport_percent": 0,
+  "costOfTransport_perTrip_USD": 0,
+  "__v": 0
+}]

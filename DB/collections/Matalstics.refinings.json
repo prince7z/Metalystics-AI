@@ -1,0 +1,850 @@
+[{
+  "_id": {
+    "$oid": "68c076925279a945472f265b"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c0773d5279a945472f2671"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c07f63cf3cf1f4ec858c99"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674a1b2c3d4e5f6789012348"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 1,
+  "outputEfficiency_percent": 95.5,
+  "energyConsumption_kWh_perTon": 8500,
+  "energySource": [
+    {
+      "type": "Coal",
+      "percent": 50
+    },
+    {
+      "type": "Natural Gas",
+      "percent": 20
+    },
+    {
+      "type": "Renewable",
+      "percent": 30
+    }
+  ],
+  "waterConsumption_L_perTon": 300,
+  "chemicalsUsed_kg_perTon": [
+    {
+      "name": "Cryolite",
+      "amount_kg": 0.5
+    },
+    {
+      "name": "Sodium Carbonate",
+      "amount_kg": 1.2
+    }
+  ],
+  "wasteSlagGenerated_kg_perTon": 80,
+  "materialLostAsImpurity_percent": 1.2,
+  "recyclingContent_percent": 15,
+  "recyclingOutputQuality": "Closed-loop",
+  "operatingCost_USD_perTon": 210.75
+},
+{
+  "_id": {
+    "$oid": "68c15836a334712ee2e61412"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 1,
+  "outputEfficiency_percent": 90,
+  "energyConsumption_kWh_perTon": 2000,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c15836a334712ee2e61413"
+      }
+    }
+  ],
+  "waterConsumption_L_perTon": 3000,
+  "chemicalsUsed_kg_perTon": [
+    {
+      "name": "Cycolite",
+      "amount_kg": 0.5,
+      "_id": {
+        "$oid": "68c15836a334712ee2e61414"
+      }
+    },
+    {
+      "name": "Sodium Carbonate",
+      "amount_kg": 1.2,
+      "_id": {
+        "$oid": "68c15836a334712ee2e61415"
+      }
+    }
+  ],
+  "wasteSlagGenerated_kg_perTon": 50,
+  "materialLostAsImpurity_percent": 5,
+  "recyclingContent_percent": 20,
+  "recyclingOutputQuality": "Closed-loop",
+  "operatingCost_USD_perTon": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c1593579d158ab87ba5eae"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 1,
+  "outputEfficiency_percent": 90,
+  "energyConsumption_kWh_perTon": 2000,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c1593579d158ab87ba5eaf"
+      }
+    }
+  ],
+  "waterConsumption_L_perTon": 3000,
+  "chemicalsUsed_kg_perTon": [
+    {
+      "name": "Cycolite",
+      "amount_kg": 0.5,
+      "_id": {
+        "$oid": "68c1593579d158ab87ba5eb0"
+      }
+    },
+    {
+      "name": "Sodium Carbonate",
+      "amount_kg": 1.2,
+      "_id": {
+        "$oid": "68c1593579d158ab87ba5eb1"
+      }
+    }
+  ],
+  "wasteSlagGenerated_kg_perTon": 50,
+  "materialLostAsImpurity_percent": 5,
+  "recyclingContent_percent": 20,
+  "recyclingOutputQuality": "Closed-loop",
+  "operatingCost_USD_perTon": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c159515ca8962ed1709eff"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 1,
+  "outputEfficiency_percent": 90,
+  "energyConsumption_kWh_perTon": 2000,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c159515ca8962ed1709f00"
+      }
+    }
+  ],
+  "waterConsumption_L_perTon": 3000,
+  "chemicalsUsed_kg_perTon": [
+    {
+      "name": "Cycolite",
+      "amount_kg": 0.5,
+      "_id": {
+        "$oid": "68c159515ca8962ed1709f01"
+      }
+    },
+    {
+      "name": "Sodium Carbonate",
+      "amount_kg": 1.2,
+      "_id": {
+        "$oid": "68c159515ca8962ed1709f02"
+      }
+    }
+  ],
+  "wasteSlagGenerated_kg_perTon": 50,
+  "materialLostAsImpurity_percent": 5,
+  "recyclingContent_percent": 20,
+  "recyclingOutputQuality": "Closed-loop",
+  "operatingCost_USD_perTon": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c159535ca8962ed1709f06"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 1,
+  "outputEfficiency_percent": 90,
+  "energyConsumption_kWh_perTon": 2000,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c159535ca8962ed1709f07"
+      }
+    }
+  ],
+  "waterConsumption_L_perTon": 3000,
+  "chemicalsUsed_kg_perTon": [
+    {
+      "name": "Cycolite",
+      "amount_kg": 0.5,
+      "_id": {
+        "$oid": "68c159535ca8962ed1709f08"
+      }
+    },
+    {
+      "name": "Sodium Carbonate",
+      "amount_kg": 1.2,
+      "_id": {
+        "$oid": "68c159535ca8962ed1709f09"
+      }
+    }
+  ],
+  "wasteSlagGenerated_kg_perTon": 50,
+  "materialLostAsImpurity_percent": 5,
+  "recyclingContent_percent": 20,
+  "recyclingOutputQuality": "Closed-loop",
+  "operatingCost_USD_perTon": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c1596cb1012bc07b71dd59"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 1,
+  "outputEfficiency_percent": 90,
+  "energyConsumption_kWh_perTon": 2000,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c1596cb1012bc07b71dd5a"
+      }
+    }
+  ],
+  "waterConsumption_L_perTon": 3000,
+  "chemicalsUsed_kg_perTon": [
+    {
+      "name": "Cycolite",
+      "amount_kg": 0.5,
+      "_id": {
+        "$oid": "68c1596cb1012bc07b71dd5b"
+      }
+    },
+    {
+      "name": "Sodium Carbonate",
+      "amount_kg": 1.2,
+      "_id": {
+        "$oid": "68c1596cb1012bc07b71dd5c"
+      }
+    }
+  ],
+  "wasteSlagGenerated_kg_perTon": 50,
+  "materialLostAsImpurity_percent": 5,
+  "recyclingContent_percent": 20,
+  "recyclingOutputQuality": "Closed-loop",
+  "operatingCost_USD_perTon": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c159b34fc1907d4ec36c05"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 1,
+  "outputEfficiency_percent": 90,
+  "energyConsumption_kWh_perTon": 2000,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c159b34fc1907d4ec36c06"
+      }
+    }
+  ],
+  "waterConsumption_L_perTon": 3000,
+  "chemicalsUsed_kg_perTon": [
+    {
+      "name": "Cycolite",
+      "amount_kg": 0.5,
+      "_id": {
+        "$oid": "68c159b34fc1907d4ec36c07"
+      }
+    },
+    {
+      "name": "Sodium Carbonate",
+      "amount_kg": 1.2,
+      "_id": {
+        "$oid": "68c159b34fc1907d4ec36c08"
+      }
+    }
+  ],
+  "wasteSlagGenerated_kg_perTon": 50,
+  "materialLostAsImpurity_percent": 5,
+  "recyclingContent_percent": 20,
+  "recyclingOutputQuality": "Closed-loop",
+  "operatingCost_USD_perTon": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c159c4357850b99dbd0206"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 1,
+  "outputEfficiency_percent": 90,
+  "energyConsumption_kWh_perTon": 2000,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c159c4357850b99dbd0207"
+      }
+    }
+  ],
+  "waterConsumption_L_perTon": 3000,
+  "chemicalsUsed_kg_perTon": [
+    {
+      "name": "Cycolite",
+      "amount_kg": 0.5,
+      "_id": {
+        "$oid": "68c159c4357850b99dbd0208"
+      }
+    },
+    {
+      "name": "Sodium Carbonate",
+      "amount_kg": 1.2,
+      "_id": {
+        "$oid": "68c159c4357850b99dbd0209"
+      }
+    }
+  ],
+  "wasteSlagGenerated_kg_perTon": 50,
+  "materialLostAsImpurity_percent": 5,
+  "recyclingContent_percent": 20,
+  "recyclingOutputQuality": "Closed-loop",
+  "operatingCost_USD_perTon": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c159dd270403d0bb803e31"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 1,
+  "outputEfficiency_percent": 90,
+  "energyConsumption_kWh_perTon": 2000,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c159dd270403d0bb803e32"
+      }
+    }
+  ],
+  "waterConsumption_L_perTon": 3000,
+  "chemicalsUsed_kg_perTon": [
+    {
+      "name": "Cycolite",
+      "amount_kg": 0.5,
+      "_id": {
+        "$oid": "68c159dd270403d0bb803e33"
+      }
+    },
+    {
+      "name": "Sodium Carbonate",
+      "amount_kg": 1.2,
+      "_id": {
+        "$oid": "68c159dd270403d0bb803e34"
+      }
+    }
+  ],
+  "wasteSlagGenerated_kg_perTon": 50,
+  "materialLostAsImpurity_percent": 5,
+  "recyclingContent_percent": 20,
+  "recyclingOutputQuality": "Closed-loop",
+  "operatingCost_USD_perTon": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c159fdf47984190fb5283e"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 1,
+  "outputEfficiency_percent": 90,
+  "energyConsumption_kWh_perTon": 2000,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c159fdf47984190fb5283f"
+      }
+    }
+  ],
+  "waterConsumption_L_perTon": 3000,
+  "chemicalsUsed_kg_perTon": [
+    {
+      "name": "Cycolite",
+      "amount_kg": 0.5,
+      "_id": {
+        "$oid": "68c159fdf47984190fb52840"
+      }
+    },
+    {
+      "name": "Sodium Carbonate",
+      "amount_kg": 1.2,
+      "_id": {
+        "$oid": "68c159fdf47984190fb52841"
+      }
+    }
+  ],
+  "wasteSlagGenerated_kg_perTon": 50,
+  "materialLostAsImpurity_percent": 5,
+  "recyclingContent_percent": 20,
+  "recyclingOutputQuality": "Closed-loop",
+  "operatingCost_USD_perTon": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30b5357406494ce63b8ff"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30d228b6d195f9c6b3f22"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30e4c8b6d195f9c6b3f38"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c311178b6d195f9c6b3f53"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c3e162398625d97daa187e"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c921436e766f30e39219ea"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c921ba6e766f30e3921a72"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c922e26e766f30e3921a88"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c9497f81a995fa6b7d9728"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c9673eb668f0e346c46c9e"
+  },
+  "refiningType": "Pyrometallurgy",
+  "materialInput_tons": 100,
+  "outputEfficiency_percent": 23,
+  "energyConsumption_kWh_perTon": 1000,
+  "energySource": [
+    {
+      "type": "electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c969b3e5f587ad51be4fe0"
+      }
+    }
+  ],
+  "waterConsumption_L_perTon": 98,
+  "chemicalsUsed_kg_perTon": [
+    {
+      "name": "Cryolite",
+      "amount_kg": 0.5,
+      "_id": {
+        "$oid": "68c969b3e5f587ad51be4fe1"
+      }
+    },
+    {
+      "name": "Sodium Carbonate",
+      "amount_kg": 1.2,
+      "_id": {
+        "$oid": "68c969b3e5f587ad51be4fe2"
+      }
+    }
+  ],
+  "wasteSlagGenerated_kg_perTon": 50,
+  "materialLostAsImpurity_percent": 5,
+  "recyclingContent_percent": 20,
+  "recyclingOutputQuality": "Closed-loop",
+  "operatingCost_USD_perTon": 100,
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "68c97dada7503c150fc867ff"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97dd5bf3c37666bb089e3"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97f9f7220ad7f0e0a0486"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98159f6066de4ef15f92d"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c9822ef6066de4ef15f940"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98251cd5a3e52aae7acae"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98270677d42cc5697e725"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98313677d42cc5697e73d"
+  },
+  "refiningType": "Electrolysis",
+  "materialInput_tons": 0,
+  "outputEfficiency_percent": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "waterConsumption_L_perTon": 0,
+  "chemicalsUsed_kg_perTon": [],
+  "wasteSlagGenerated_kg_perTon": 0,
+  "materialLostAsImpurity_percent": 0,
+  "recyclingContent_percent": 0,
+  "recyclingOutputQuality": "None",
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c983c1aa0c5214033bc7b0"
+  },
+  "refiningType": "Pyrometallurgy",
+  "materialInput_tons": 10000,
+  "outputEfficiency_percent": 50,
+  "energyConsumption_kWh_perTon": 100,
+  "energySource": [
+    {
+      "type": "electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c9936226ceb2cf4e0d9220"
+      }
+    }
+  ],
+  "waterConsumption_L_perTon": 998,
+  "chemicalsUsed_kg_perTon": [
+    {
+      "name": "Cryolite",
+      "amount_kg": 0.5,
+      "_id": {
+        "$oid": "68c9936226ceb2cf4e0d9221"
+      }
+    },
+    {
+      "name": "Sodium Carbonate",
+      "amount_kg": 1.2,
+      "_id": {
+        "$oid": "68c9936226ceb2cf4e0d9222"
+      }
+    }
+  ],
+  "wasteSlagGenerated_kg_perTon": 50,
+  "materialLostAsImpurity_percent": 5,
+  "recyclingContent_percent": 20,
+  "recyclingOutputQuality": "Closed-loop",
+  "operatingCost_USD_perTon": 100,
+  "__v": 1
+}]

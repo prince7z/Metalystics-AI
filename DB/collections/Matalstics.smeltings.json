@@ -1,0 +1,512 @@
+[{
+  "_id": {
+    "$oid": "68c076925279a945472f265c"
+  },
+  "smeltingTech": "Blast Furnace",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c0773d5279a945472f2672"
+  },
+  "smeltingTech": "Blast Furnace",
+  "materialInput_tons_perBatch": 50,
+  "operatingTemp_C": 1500,
+  "energyConsumption_kWh_perTon": 1200,
+  "energySource": [
+    {
+      "type": "Coal",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c15b931db1e9477ab87704"
+      }
+    }
+  ],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 200,
+  "outputEfficiency_percent": 90.5,
+  "recycledScrapInput_tons_perTon": 0.5,
+  "recyclingQuality": "Closed-loop",
+  "waterConsumption_L_perTon": 5000,
+  "operatingCost_USD_perTon": 250,
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "68c07f63cf3cf1f4ec858c9a"
+  },
+  "smeltingTech": "Blast Furnace",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674a1b2c3d4e5f6789012349"
+  },
+  "smeltingTech": "Hall-Héroult",
+  "materialInput_tons_perBatch": 1,
+  "operatingTemp_C": 960,
+  "energyConsumption_kWh_perTon": 14000,
+  "energySource": [
+    {
+      "type": "Coal",
+      "percent": 50
+    },
+    {
+      "type": "Natural Gas",
+      "percent": 20
+    },
+    {
+      "type": "Renewable",
+      "percent": 30
+    }
+  ],
+  "fluxMaterials_kg_perTon": [
+    {
+      "type": "Limestone",
+      "amount_kg": 20
+    },
+    {
+      "type": "Dolomite",
+      "amount_kg": 10
+    }
+  ],
+  "slagGenerated_kg_perTon": 150,
+  "outputEfficiency_percent": 92.5,
+  "recycledScrapInput_tons_perTon": 0.05,
+  "recyclingQuality": "Closed-loop",
+  "waterConsumption_L_perTon": 200,
+  "operatingCost_USD_perTon": 180.75,
+  "notes": "All numeric fields are per tonne of final metal unless otherwise specified."
+},
+{
+  "_id": {
+    "$oid": "68c30b5357406494ce63b900"
+  },
+  "smeltingTech": "Blast Furnace",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30d228b6d195f9c6b3f23"
+  },
+  "smeltingTech": "Hall-Héroult",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c30e4c8b6d195f9c6b3f39"
+  },
+  "smeltingTech": "Hall-Héroult",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c311178b6d195f9c6b3f54"
+  },
+  "smeltingTech": "Hall-Héroult",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c3e162398625d97daa187f"
+  },
+  "smeltingTech": "Hall-Héroult",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c921436e766f30e39219eb"
+  },
+  "smeltingTech": "Hall-Héroult",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c921ba6e766f30e3921a73"
+  },
+  "smeltingTech": "Hall-Héroult",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c922e26e766f30e3921a89"
+  },
+  "smeltingTech": "Blast Furnace",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c9497f81a995fa6b7d9729"
+  },
+  "smeltingTech": "Blast Furnace",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c96b42e5f587ad51be4fe6"
+  },
+  "smeltingTech": "blast_furnace",
+  "materialInput_tons_perBatch": 100,
+  "operatingTemp_C": 50,
+  "energyConsumption_kWh_perTon": 100,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c96b42e5f587ad51be4fe7"
+      }
+    }
+  ],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 100,
+  "outputEfficiency_percent": 85,
+  "recycledScrapInput_tons_perTon": 0.1,
+  "recyclingQuality": "Closed-loop",
+  "waterConsumption_L_perTon": 200,
+  "operatingCost_USD_perTon": 150,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c96bbee5f587ad51be4feb"
+  },
+  "smeltingTech": "blast_furnace",
+  "materialInput_tons_perBatch": 1000,
+  "operatingTemp_C": 20,
+  "energyConsumption_kWh_perTon": 1000,
+  "energySource": [
+    {
+      "type": "Coal",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c96bbee5f587ad51be4fec"
+      }
+    }
+  ],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 100,
+  "outputEfficiency_percent": 85,
+  "recycledScrapInput_tons_perTon": 0.1,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 200,
+  "operatingCost_USD_perTon": 150,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c96fc2ab7436e6cd78eda5"
+  },
+  "smeltingTech": "electric_arc_furnace",
+  "materialInput_tons_perBatch": 100,
+  "operatingTemp_C": 20,
+  "energyConsumption_kWh_perTon": 100,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c96fc2ab7436e6cd78eda6"
+      }
+    }
+  ],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 100,
+  "outputEfficiency_percent": 85,
+  "recycledScrapInput_tons_perTon": 0.2,
+  "recyclingQuality": "Closed-loop",
+  "waterConsumption_L_perTon": 1000,
+  "operatingCost_USD_perTon": 200,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97dada7503c150fc86800"
+  },
+  "smeltingTech": "Hall-Héroult",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97dd5bf3c37666bb089e4"
+  },
+  "smeltingTech": "Hall-Héroult",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c97f9f7220ad7f0e0a0487"
+  },
+  "smeltingTech": "Hall-Héroult",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98159f6066de4ef15f92e"
+  },
+  "smeltingTech": "Hall-Héroult",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c9822ef6066de4ef15f941"
+  },
+  "smeltingTech": "Hall-Héroult",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98251cd5a3e52aae7acaf"
+  },
+  "smeltingTech": "Hall-Héroult",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98270677d42cc5697e726"
+  },
+  "smeltingTech": "Hall-Héroult",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c98313677d42cc5697e73e"
+  },
+  "smeltingTech": "Blast Furnace",
+  "materialInput_tons_perBatch": 0,
+  "operatingTemp_C": 0,
+  "energyConsumption_kWh_perTon": 0,
+  "energySource": [],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 0,
+  "outputEfficiency_percent": 0,
+  "recycledScrapInput_tons_perTon": 0,
+  "recyclingQuality": "None",
+  "waterConsumption_L_perTon": 0,
+  "operatingCost_USD_perTon": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c983c1aa0c5214033bc7b1"
+  },
+  "smeltingTech": "electric_arc_furnace",
+  "materialInput_tons_perBatch": 1000,
+  "operatingTemp_C": 50,
+  "energyConsumption_kWh_perTon": 20,
+  "energySource": [
+    {
+      "type": "Electricity",
+      "percent": 100,
+      "_id": {
+        "$oid": "68c9937d26ceb2cf4e0d9228"
+      }
+    }
+  ],
+  "fluxMaterials_kg_perTon": [],
+  "slagGenerated_kg_perTon": 100,
+  "outputEfficiency_percent": 85,
+  "recycledScrapInput_tons_perTon": 0.2,
+  "recyclingQuality": "Closed-loop",
+  "waterConsumption_L_perTon": 1000,
+  "operatingCost_USD_perTon": 200,
+  "__v": 1
+}]
